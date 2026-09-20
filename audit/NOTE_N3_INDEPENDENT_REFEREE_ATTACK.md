@@ -327,4 +327,43 @@ N3 may close only after the revised manuscript passes:
 
 Current verdict pending final revised-source CI:
 
-`CONDITIONAL PASS — REVISIONS COMPLETE, CI CONFIRMATION PENDING`.
+`PASS — INDEPENDENT REFEREE ATTACK RESOLVED`.
+
+
+## N3 closure evidence
+
+Revised-manuscript compile:
+
+- commit: `66ad82e9f0d1ac994f6d1ae3cba83ea2e1adc613`;
+- workflow run: `35500966614`;
+- result: `success`;
+- manuscript compile and PDF-existence check both passed.
+
+Independent referee mathematics:
+
+- workflow run `35500829554`: `success`;
+- N3 independent symbolic recheck: `PASS`;
+- current revised-source Stage-1/4/4A/7/N3 regression job in run
+  `35500966607`: `success`.
+
+Formal proof source fidelity:
+
+- current `formal/GSSCorrection.lean` blob:
+  `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`;
+- N1-certified formal source blob:
+  `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`;
+- byte-identical;
+- certified Lean build / leanchecker / axiom audit run:
+  `35500192212`.
+
+No N1 theorem or claim scope was changed during N3.
+
+## N3 canonical verdict
+
+`PASS — INDEPENDENT REFEREE ATTACK RESOLVED`.
+
+No mathematical reopen trigger was found.
+
+Routing:
+
+`N4 — JOURNAL POSITIONING`.
