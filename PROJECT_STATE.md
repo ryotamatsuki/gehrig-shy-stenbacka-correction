@@ -172,8 +172,13 @@ Accordingly:
 | Note stage | State |
 |---|---|
 | N1 — Pre-submission Assurance / Theory Freeze | **PASS — NOTE THEORY FROZEN** |
-| N2 — Manuscript Construction | **IN PROGRESS — next** |
-| N3+ | **NOT STARTED** |
+| N2 — Manuscript Construction | **PASS — MANUSCRIPT CONSTRUCTED** |
+| N3 — Independent Referee Attack | **NOT STARTED — next** |
+| N4+ | **NOT STARTED** |
 
 N1 certified workflow run: `35500192212`.
 N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
+
+## N2 manuscript construction
+
+The compact correction/reassessment manuscript is constructed at `paper/manuscript.tex` with bibliography and frozen claim map. LaTeX/PDF CI passed in workflow run `35500470176`.
