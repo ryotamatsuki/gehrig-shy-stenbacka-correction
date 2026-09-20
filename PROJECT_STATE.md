@@ -32,8 +32,8 @@ as proof; Stage 1 independently rechecks the proof-critical mathematics.
 | Stage 1 — Source & Mathematical Audit | **GO** |
 | Stage 2 — Literature Frontier / Novelty Kill Gate | **GO** |
 | Stage 3 — Candidate Mechanism Search | **GO — Architecture B selected** |
-| Stage 4 — Minimal Model Gate | **NOT STARTED — next** |
-| Stage 4A — Independent Mathematical Adversarial Certification | **NOT STARTED** |
+| Stage 4 — Minimal Model Gate | **GO** |
+| Stage 4A — Independent Mathematical Adversarial Certification | **NOT STARTED — next** |
 | Stage 5+ | **NOT STARTED** |
 
 ## Early-repository exception
@@ -74,3 +74,19 @@ uniform-pricing interior candidates.
 
 The full pure-price equilibrium correspondence is supporting work only unless
 Stage 4 proves it is necessary for an exact validity characterization.
+
+
+## Stage 4 solved object
+
+The displayed uniform-pricing equilibrium has the exact global-validity domain
+
+`-3 tau + [(2+theta+3 sqrt(theta))/2] sigma <= Delta c <= 3 tau - [(1-theta+3 sqrt(1-theta))/2] sigma`.
+
+This domain is contained in the displayed HBP candidate's global-validity
+domain, so it is also the common comparison domain.  The corrected welfare
+identity on that domain is
+
+`W^d-W^u = -theta(1-theta)sigma^2/(16 tau)`.
+
+All Stage-4 propositions remain candidate theorems pending Stage 4A independent
+adversarial certification.
