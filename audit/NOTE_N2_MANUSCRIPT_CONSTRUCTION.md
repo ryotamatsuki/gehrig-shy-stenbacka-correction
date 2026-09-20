@@ -75,10 +75,24 @@ Required:
 
 Current state:
 
-`COMPILE PENDING — N2 NOT YET CLOSED`.
+`PASS — MANUSCRIPT CONSTRUCTED`.
 
 ## Exit
 
 After a green compile and final source/claim-map consistency check:
 
 `PASS — MANUSCRIPT CONSTRUCTED -> N3 INDEPENDENT REFEREE ATTACK`.
+
+## Compile closure evidence
+
+Workflow run: `35500470176`.
+
+Result: `success`.
+
+The CI completed both the LaTeX compilation step and the explicit `paper/manuscript.pdf` existence check.
+
+## N2 canonical verdict
+
+`PASS — MANUSCRIPT CONSTRUCTED`.
+
+Routing: `N3 — INDEPENDENT REFEREE ATTACK`.
