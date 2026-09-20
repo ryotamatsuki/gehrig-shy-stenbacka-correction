@@ -197,9 +197,17 @@ def exact_symbolic_attack():
     assert sp.simplify(expr_H.subs(d, L_H)) == 0
     assert sp.simplify(expr_UB.subs(d, L_U)) == 0
     assert sp.simplify(expr_UA.subs(d, U_U)) == 0
-    assert sp.simplify(sp.diff(expr_H, d)) > 0
-    assert sp.simplify(sp.diff(expr_UB, d)) > 0
-    assert sp.simplify(sp.diff(expr_UA, d)) < 0
+    # Exact derivatives.  For 0<theta<1 the first two are strictly positive
+    # and the last is strictly negative.
+    assert sp.factor(sp.diff(expr_H, d)) == (
+        2 * (1 - sp.sqrt(th)) / 3
+    )
+    assert sp.factor(sp.diff(expr_UB, d)) == (
+        2 * (1 - sp.sqrt(th)) / 3
+    )
+    assert sp.factor(sp.diff(expr_UA, d)) == (
+        -2 * (1 - sp.sqrt(1 - th)) / 3
+    )
 
     # HBP A's one-segment global-interior conditions:
     # 0 <= h <= 4.  Show that the B lower bound dominates the only material
