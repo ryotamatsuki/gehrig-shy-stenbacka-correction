@@ -265,7 +265,24 @@ selection-invariant welfare claim for alternative boundary equilibria.
 
 \section{Consumer surplus and welfare correction}
 
-Let $CS^r$ and $\pi_i^r$ denote consumer surplus and firm $i
+Let $CS^r$ and $\pi_i^r$ denote consumer surplus and the operating profit of
+firm $i$ under regime $r\in\{d,u\}$. For any displayed allocation
+$(x_o,x_n)$ and prices $(p_A,q_A,p_B)$, aggregate consumer surplus is
+\begin{align}
+CS={}&(1-\theta)\left[
+ \int_0^{x_o}(\beta-p_A-\tau x)\,dx
+ +\int_{x_o}^1(\beta-p_B-\tau(1-x)-\sigma)\,dx
+ \right] \\
+&+\theta\left[
+ \int_0^{x_n}(\beta-q_A-\tau x)\,dx
+ +\int_{x_n}^1(\beta-p_B-\tau(1-x))\,dx
+ \right].
+\label{eq:csprimitive}
+\end{align}
+Under uniform pricing set $q_A=p_A$. Substituting the two displayed price and
+allocation profiles into \eqref{eq:csprimitive} gives the following result.
+
+\begin{proposition}[Corrected welfare comparison]
 \label{prop:welfare}
 On $\mathcal D_{\mathrm{compare}}$,
 \begin{align}
