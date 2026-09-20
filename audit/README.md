@@ -25,3 +25,8 @@ correction-paper verification.
 8. `stage06_search_log_2026-09-20.md` — Stage-6 search / absorption evidence
 
 The next canonical artifact is the Stage 7 welfare/generality/institutional-validation record.
+
+9. `STAGE_07_WELFARE_GENERALITY_INSTITUTIONAL.md` — GO; substantive resource-cost interpretation
+10. `stage07_institutional_evidence_2026-09-20.md` — primary-source primitive validation
+
+The next canonical artifact is the Stage 7.5 full-theory-freeze decision.
