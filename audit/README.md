@@ -30,3 +30,8 @@ The next canonical artifact is the Stage 7 welfare/generality/institutional-vali
 10. `stage07_institutional_evidence_2026-09-20.md` — primary-source primitive validation
 
 The next canonical artifact is the Stage 7.5 full-theory-freeze decision.
+
+11. `STAGE_075_FULL_THEORY_FREEZE_DECISION.md` — NO-GO for full-theory route; compact correction/reassessment note selected
+
+Full-theory Stage 7.5A/8 are not entered. The next project task is to define the
+note-specific assurance/freeze protocol before manuscript construction.
