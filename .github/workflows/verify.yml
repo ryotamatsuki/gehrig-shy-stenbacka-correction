@@ -40,8 +40,9 @@ jobs:
           build: true
           axiom-audit: true
           axiom-audit-root: GSSCorrection
-          nanoda: true
-          nanoda-allow-sorry: false
+          leanchecker: true
+          leanchecker-args: "GSSCorrection"
+          nanoda: false
       - name: Reject proof placeholders
         run: |
           if grep -R -nE '\b(sorry|admit)\b' formal --include='*.lean'; then
