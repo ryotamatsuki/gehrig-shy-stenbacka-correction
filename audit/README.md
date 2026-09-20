@@ -20,3 +20,8 @@ Stage 5 was not triggered. The next canonical artifact is the Stage 6 novelty re
 Historical discovery-audit material is kept separately under `provenance/`
 so that inherited findings cannot silently substitute for independent
 correction-paper verification.
+
+7. `STAGE_06_NOVELTY_REKILL.md` — GO; theorem-aware novelty survives in source-specific form
+8. `stage06_search_log_2026-09-20.md` — Stage-6 search / absorption evidence
+
+The next canonical artifact is the Stage 7 welfare/generality/institutional-validation record.
