@@ -35,3 +35,8 @@ The next canonical artifact is the Stage 7.5 full-theory-freeze decision.
 
 Full-theory Stage 7.5A/8 are not entered. The next project task is to define the
 note-specific assurance/freeze protocol before manuscript construction.
+
+12. `NOTE_N1_CLAIM_SCOPE_LEDGER.md` — frozen maximum defensible note claims
+13. `NOTE_N1_PRE_SUBMISSION_ASSURANCE_FREEZE.md` — PASS; note theory frozen
+
+Next: N2 manuscript construction.
