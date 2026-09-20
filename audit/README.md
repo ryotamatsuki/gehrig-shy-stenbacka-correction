@@ -48,3 +48,7 @@ Next: N3 independent referee attack.
 15. `NOTE_N3_INDEPENDENT_REFEREE_ATTACK.md` — PASS; adversarial manuscript review resolved
 
 Next: N4 journal positioning.
+
+16. `NOTE_N4_JOURNAL_POSITIONING.md` — PASS; EER inquiry-first route with IJIO primary fallback
+
+Next: N5 full-note integration.
