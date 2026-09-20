@@ -183,8 +183,10 @@ theorem p4_welfare_negative
   have hsquare : 0 < σ^2 := pow_pos hσ 2
   have hnum : 0 < θ * (1-θ) * σ^2 :=
     mul_pos (mul_pos hθ0 hcohort) hsquare
+  have hneg : -(θ * (1-θ) * σ^2) < 0 := neg_lt_zero.mpr hnum
   have hden : 0 < 16 * τ := mul_pos (by norm_num) hτ
-  exact div_neg_of_neg_of_pos (neg_neg.mpr hnum) hden
+  rw [div_eq_mul_inv]
+  exact mul_neg_of_neg_of_pos hneg (inv_pos.mpr hden)
 
 /-- CE1: exact HBP entrant deviation gain. -/
 theorem ce1_hbp_gain :
