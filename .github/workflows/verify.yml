@@ -28,3 +28,23 @@ jobs:
         run: python code/stage04a_cleanroom_adversarial.py
       - name: Run Stage 7 welfare decomposition
         run: python code/stage07_welfare_decomposition.py
+
+  formal-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Build and kernel-audit Lean proofs
+        uses: leanprover/lean-action@v1
+        with:
+          build: true
+          axiom-audit: true
+          axiom-audit-root: GSSCorrection
+          nanoda: true
+          nanoda-allow-sorry: false
+      - name: Reject proof placeholders
+        run: |
+          if grep -R -nE '\b(sorry|admit)\b' formal --include='*.lean'; then
+            echo "Lean proof placeholder found"
+            exit 1
+          fi
