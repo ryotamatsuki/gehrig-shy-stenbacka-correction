@@ -40,3 +40,7 @@ note-specific assurance/freeze protocol before manuscript construction.
 13. `NOTE_N1_PRE_SUBMISSION_ASSURANCE_FREEZE.md` — PASS; note theory frozen
 
 Next: N2 manuscript construction.
+
+14. `NOTE_N2_MANUSCRIPT_CONSTRUCTION.md` — PASS; compact manuscript constructed and compiled
+
+Next: N3 independent referee attack.
