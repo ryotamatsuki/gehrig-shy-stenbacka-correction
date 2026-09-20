@@ -31,8 +31,8 @@ as proof; Stage 1 independently rechecks the proof-critical mathematics.
 | Stage 0 — Idea / Motivation Intake | **GO** |
 | Stage 1 — Source & Mathematical Audit | **GO** |
 | Stage 2 — Literature Frontier / Novelty Kill Gate | **GO** |
-| Stage 3 — Candidate Mechanism Search | **NOT STARTED** |
-| Stage 4 — Minimal Model Gate | **NOT STARTED** |
+| Stage 3 — Candidate Mechanism Search | **GO — Architecture B selected** |
+| Stage 4 — Minimal Model Gate | **NOT STARTED — next** |
 | Stage 4A — Independent Mathematical Adversarial Certification | **NOT STARTED** |
 | Stage 5+ | **NOT STARTED** |
 
@@ -64,3 +64,13 @@ unchanged, and manuscript construction is not yet authorized.
 - Do not state a global equilibrium theorem before Stage 4/4A certification.
 - Do not extend welfare or policy claims beyond the exact certified model and
   parameter domain.
+
+
+## Stage 3 architecture decision
+
+Selected paper architecture: corrected welfare accounting plus exact
+global-equilibrium validity conditions for the source's displayed HBP and
+uniform-pricing interior candidates.
+
+The full pure-price equilibrium correspondence is supporting work only unless
+Stage 4 proves it is necessary for an exact validity characterization.
