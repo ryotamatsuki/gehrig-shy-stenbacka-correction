@@ -37,8 +37,9 @@ as proof; Stage 1 independently rechecks the proof-critical mathematics.
 | Stage 5 — Mechanism Hardening | **NOT TRIGGERED** |
 | Stage 6 — Novelty Re-Kill | **GO** |
 | Stage 7 — Welfare / Generality / Institutional Validation | **GO** |
-| Stage 7.5 — Full-Theory Freeze Decision | **NOT STARTED — next** |
-| Stage 7.5A+ | **NOT STARTED** |
+| Stage 7.5 — Full-Theory Freeze Decision | **NO-GO — full-theory route; correction-note route selected** |
+| Stage 7.5A — Generality / Quantifier Red-Team | **NOT ENTERED — full-theory route stopped** |
+| Stage 8 — Canonical Theory Freeze | **BLOCKED under full-theory route** |
 
 ## Early-repository exception
 
@@ -145,3 +146,23 @@ which exactly matches the negative welfare difference.
 The incumbent's HBP profit gain equals two thirds of the consumer loss.
 Generality remains source-model specific; no broad welfare theorem for
 personalized or history-based pricing is claimed.
+
+
+## Stage 7.5 routing decision
+
+The project is classified as:
+
+`COMPACT CORRECTION / REASSESSMENT NOTE — WORTH PURSUING`.
+
+The Stage-7.5 full-theory gate is deliberately **not** passed. The correction
+has substantive publication value, but its certified novelty remains
+source-specific rather than a general theorem over a broader economic class.
+
+Accordingly:
+
+- do not enter Stage 7.5A by relabeling the note as a full theory paper;
+- do not mark Stage 8 complete under the full-theory workflow;
+- before manuscript construction, run a note-specific pre-submission
+  assurance/freeze protocol;
+- targeted formal verification remains recommended because the project corrects
+  a published mathematical result.
