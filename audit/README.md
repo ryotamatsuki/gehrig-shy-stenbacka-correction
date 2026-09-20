@@ -11,7 +11,11 @@ Canonical gate order currently stored here:
 
 6. `STAGE_04_MINIMAL_MODEL_GLOBAL_VALIDITY.md` — GO; exact global-validity domains derived
 
-The next canonical artifact is the Stage 4A independent mathematical adversarial certification record.
+7. `STAGE_04A_INDEPENDENT_ADVERSARIAL_CERTIFICATION.md` — GO; independent certification PASS
+8. `STAGE_04A_FORMALIZATION_TARGET_MAP.md` — FORMALIZATION APPLICABLE
+9. `certificates/` — theorem-level PASS certificates for L1 and P1–P4
+
+Stage 5 was not triggered. The next canonical artifact is the Stage 6 novelty re-kill record.
 
 Historical discovery-audit material is kept separately under `provenance/`
 so that inherited findings cannot silently substitute for independent
