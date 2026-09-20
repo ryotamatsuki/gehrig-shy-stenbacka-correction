@@ -24,3 +24,5 @@ jobs:
         run: python code/stage01_independent_recheck.py
       - name: Run Stage 4 global-validity checks
         run: python code/stage04_global_validity.py
+      - name: Run Stage 4A independent adversarial checks
+        run: python code/stage04a_cleanroom_adversarial.py
