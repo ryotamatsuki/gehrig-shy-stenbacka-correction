@@ -16,8 +16,9 @@ This project follows `research-paper-workflow` v2.3 at commit
 - Stage 1 — GO
 - Stage 2 — GO
 - Stage 3 — GO — Architecture B selected
-- Stage 4 — NOT STARTED — next
-- Stage 4A+ — NOT STARTED
+- Stage 4 — GO
+- Stage 4A — NOT STARTED — next
+- Stage 5+ — NOT STARTED
 
 The repository has been initialized early as a dedicated research workspace by
 explicit project decision. This does **not** mark workflow Stage 9 complete and
