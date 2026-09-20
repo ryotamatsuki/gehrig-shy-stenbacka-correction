@@ -33,8 +33,10 @@ as proof; Stage 1 independently rechecks the proof-critical mathematics.
 | Stage 2 — Literature Frontier / Novelty Kill Gate | **GO** |
 | Stage 3 — Candidate Mechanism Search | **GO — Architecture B selected** |
 | Stage 4 — Minimal Model Gate | **GO** |
-| Stage 4A — Independent Mathematical Adversarial Certification | **NOT STARTED — next** |
-| Stage 5+ | **NOT STARTED** |
+| Stage 4A — Independent Mathematical Adversarial Certification | **GO — PASS** |
+| Stage 5 — Mechanism Hardening | **NOT TRIGGERED** |
+| Stage 6 — Novelty Re-Kill | **NOT STARTED — next** |
+| Stage 7+ | **NOT STARTED** |
 
 ## Early-repository exception
 
@@ -90,3 +92,17 @@ identity on that domain is
 
 All Stage-4 propositions remain candidate theorems pending Stage 4A independent
 adversarial certification.
+
+
+## Stage 4A certification
+
+Independent clean-room certification passed at commit
+`a99e375e09a65fc0cfd0839876c4e13545a834cf`, workflow run
+`35491396515`.
+
+All headline Stage-4 candidate propositions have individual PASS certificates
+under `audit/certificates/`.
+
+Formal verification is `APPLICABLE`; the preliminary target map is recorded
+at `audit/STAGE_04A_FORMALIZATION_TARGET_MAP.md`. Formal implementation is
+still required before theory freeze.
