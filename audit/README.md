@@ -44,3 +44,7 @@ Next: N2 manuscript construction.
 14. `NOTE_N2_MANUSCRIPT_CONSTRUCTION.md` — PASS; compact manuscript constructed and compiled
 
 Next: N3 independent referee attack.
+
+15. `NOTE_N3_INDEPENDENT_REFEREE_ATTACK.md` — PASS; adversarial manuscript review resolved
+
+Next: N4 journal positioning.
