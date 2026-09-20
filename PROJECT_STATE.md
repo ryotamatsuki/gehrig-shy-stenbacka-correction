@@ -174,8 +174,9 @@ Accordingly:
 | N1 — Pre-submission Assurance / Theory Freeze | **PASS — NOTE THEORY FROZEN** |
 | N2 — Manuscript Construction | **PASS — MANUSCRIPT CONSTRUCTED** |
 | N3 — Independent Referee Attack | **PASS — REFEREE ATTACK RESOLVED** |
-| N4 — Journal Positioning | **NOT STARTED — next** |
-| N5+ | **NOT STARTED** |
+| N4 — Journal Positioning | **PASS — EER inquiry-first / IJIO fallback** |
+| N5 — Full-Note Integration | **NOT STARTED — next** |
+| N6+ | **NOT STARTED** |
 
 N1 certified workflow run: `35500192212`.
 N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
@@ -203,3 +204,26 @@ Material issues found and resolved included:
 Revised manuscript compile run `35500966614` passed.
 Independent N3 mathematical recheck passed.
 No theory-freeze reopen trigger was found.
+
+
+## N4 journal positioning
+
+Canonical route:
+
+`EER PRE-SUBMISSION INQUIRY FIRST -> IF INVITED, EER SUBMISSION`.
+
+Primary direct fallback:
+
+`INTERNATIONAL JOURNAL OF INDUSTRIAL ORGANIZATION`.
+
+Further sequence:
+
+`RESEARCH IN ECONOMICS -> JOURNAL OF INDUSTRY, COMPETITION AND TRADE -> ECONOMICS BULLETIN`.
+
+`ECONOMICS LETTERS` is excluded because its current Letters format normally
+limits contributions to about 2,000 words and explicitly states that comments
+are not suitable.
+
+N4 also removed dead duplicate LaTeX source after the first
+`\end{document}`; the rendered manuscript was unaffected. Clean-source
+compile run `35505354250` passed.
