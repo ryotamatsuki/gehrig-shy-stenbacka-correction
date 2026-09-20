@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «gssCorrection» where
+package GSSCorrection where
   version := v!"0.1.0"
 
 require mathlib from git
