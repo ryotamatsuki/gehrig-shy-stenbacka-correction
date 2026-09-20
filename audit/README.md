@@ -9,7 +9,9 @@ Canonical gate order currently stored here:
 
 5. `STAGE_03_CANDIDATE_MECHANISM_SEARCH.md` — GO; Architecture B selected
 
-The next canonical artifact is the Stage 4 minimal-model/global-equilibrium record.
+6. `STAGE_04_MINIMAL_MODEL_GLOBAL_VALIDITY.md` — GO; exact global-validity domains derived
+
+The next canonical artifact is the Stage 4A independent mathematical adversarial certification record.
 
 Historical discovery-audit material is kept separately under `provenance/`
 so that inherited findings cannot silently substitute for independent
