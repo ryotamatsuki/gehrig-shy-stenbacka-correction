@@ -28,3 +28,24 @@ The independent N3 mathematics recheck passed and no N1 reopen trigger was
 found.
 
 Next manuscript gate: `N4 — JOURNAL POSITIONING`.
+
+
+## N4 closure
+
+`PASS — JOURNAL POSITIONING FROZEN`.
+
+Target sequence:
+
+1. EER pre-submission suitability inquiry;
+2. EER submission if invited;
+3. IJIO as primary direct fallback;
+4. Research in Economics;
+5. Journal of Industry, Competition and Trade;
+6. Economics Bulletin.
+
+Economics Letters is excluded.
+
+See `JOURNAL_TARGET.md` and
+`../audit/NOTE_N4_JOURNAL_POSITIONING.md`.
+
+Next manuscript gate: `N5 — FULL-NOTE INTEGRATION`.
