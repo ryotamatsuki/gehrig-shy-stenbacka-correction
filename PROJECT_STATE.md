@@ -35,8 +35,9 @@ as proof; Stage 1 independently rechecks the proof-critical mathematics.
 | Stage 4 — Minimal Model Gate | **GO** |
 | Stage 4A — Independent Mathematical Adversarial Certification | **GO — PASS** |
 | Stage 5 — Mechanism Hardening | **NOT TRIGGERED** |
-| Stage 6 — Novelty Re-Kill | **NOT STARTED — next** |
-| Stage 7+ | **NOT STARTED** |
+| Stage 6 — Novelty Re-Kill | **GO** |
+| Stage 7 — Welfare / Generality / Institutional Validation | **NOT STARTED — next** |
+| Stage 7.5+ | **NOT STARTED** |
 
 ## Early-repository exception
 
@@ -106,3 +107,19 @@ under `audit/certificates/`.
 Formal verification is `APPLICABLE`; the preliminary target map is recorded
 at `audit/STAGE_04A_FORMALIZATION_TARGET_MAP.md`. Formal implementation is
 still required before theory freeze.
+
+
+## Stage 6 novelty re-kill
+
+The generic piecewise-affine/common-price best-response machinery is not a
+novelty claim.
+
+Surviving contribution:
+- source-specific P1/P2 global-validity domains;
+- P3 common-domain containment;
+- P4 factor-three consumer-surplus correction and welfare reversal.
+
+No located parent theorem directly absorbs the correction as a short corollary.
+The current frontier includes Chen, Shi & Zhang (2026), which reinforces that
+P4 must be stated as a GSS-model correction rather than a general welfare
+theorem about price discrimination.
