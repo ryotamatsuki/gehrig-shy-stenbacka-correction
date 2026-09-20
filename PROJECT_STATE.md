@@ -166,3 +166,14 @@ Accordingly:
   assurance/freeze protocol;
 - targeted formal verification remains recommended because the project corrects
   a published mathematical result.
+
+## Correction-note route
+
+| Note stage | State |
+|---|---|
+| N1 — Pre-submission Assurance / Theory Freeze | **PASS — NOTE THEORY FROZEN** |
+| N2 — Manuscript Construction | **IN PROGRESS — next** |
+| N3+ | **NOT STARTED** |
+
+N1 certified workflow run: `35500192212`.
+N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
