@@ -179,7 +179,12 @@ theorem p4_welfare_negative
     (hθ0 : 0 < θ) (hθ1 : θ < 1) (hσ : 0 < σ) (hτ : 0 < τ) :
     welfareGap θ σ τ < 0 := by
   unfold welfareGap
-  positivity
+  have hcohort : 0 < 1 - θ := sub_pos.mpr hθ1
+  have hsquare : 0 < σ^2 := pow_pos hσ 2
+  have hnum : 0 < θ * (1-θ) * σ^2 :=
+    mul_pos (mul_pos hθ0 hcohort) hsquare
+  have hden : 0 < 16 * τ := mul_pos (by norm_num) hτ
+  exact div_neg_of_neg_of_pos (neg_neg.mpr hnum) hden
 
 /-- CE1: exact HBP entrant deviation gain. -/
 theorem ce1_hbp_gain :
