@@ -36,8 +36,9 @@ as proof; Stage 1 independently rechecks the proof-critical mathematics.
 | Stage 4A — Independent Mathematical Adversarial Certification | **GO — PASS** |
 | Stage 5 — Mechanism Hardening | **NOT TRIGGERED** |
 | Stage 6 — Novelty Re-Kill | **GO** |
-| Stage 7 — Welfare / Generality / Institutional Validation | **NOT STARTED — next** |
-| Stage 7.5+ | **NOT STARTED** |
+| Stage 7 — Welfare / Generality / Institutional Validation | **GO** |
+| Stage 7.5 — Full-Theory Freeze Decision | **NOT STARTED — next** |
+| Stage 7.5A+ | **NOT STARTED** |
 
 ## Early-repository exception
 
@@ -123,3 +124,24 @@ No located parent theorem directly absorbs the correction as a short corollary.
 The current frontier includes Chen, Shi & Zhang (2026), which reinforces that
 P4 must be stated as a GSS-model correction rather than a general welfare
 theorem about price discrimination.
+
+
+## Stage 7 welfare / interpretation result
+
+On the certified common domain, HBP lowers transportation mismatch by
+
+`3 theta(1-theta)sigma^2/(16 tau)`
+
+but raises switching-cost losses by
+
+`theta(1-theta)sigma^2/(4 tau)`.
+
+Hence HBP raises total real resource cost by
+
+`theta(1-theta)sigma^2/(16 tau)`,
+
+which exactly matches the negative welfare difference.
+
+The incumbent's HBP profit gain equals two thirds of the consumer loss.
+Generality remains source-model specific; no broad welfare theorem for
+personalized or history-based pricing is claimed.
