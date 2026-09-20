@@ -26,3 +26,5 @@ jobs:
         run: python code/stage04_global_validity.py
       - name: Run Stage 4A independent adversarial checks
         run: python code/stage04a_cleanroom_adversarial.py
+      - name: Run Stage 7 welfare decomposition
+        run: python code/stage07_welfare_decomposition.py
