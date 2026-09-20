@@ -34,16 +34,6 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Set up pinned Lean toolchain
-        uses: leanprover/lean-action@v1
-        with:
-          auto-config: false
-          build: false
-          test: false
-          lint: false
-          use-github-cache: false
-      - name: Resolve pinned mathlib dependency
-        run: lake update
       - name: Build and kernel-audit Lean proofs
         uses: leanprover/lean-action@v1
         with:
