@@ -115,7 +115,7 @@ certificate.
 
 Until then the state is:
 
-`FORMAL VERIFICATION PENDING — N1 NOT CLOSED`.
+`PASS — NOTE THEORY FROZEN`.
 
 ## Post-N1 route
 
@@ -127,3 +127,19 @@ After N1 PASS:
 - N5 — Full-note Integration
 - N6 — Submission QA
 - N7 — Submission Freeze
+
+## Formal-verification closure evidence
+
+Certified workflow run: `35500192212`.
+
+Certified commit: `044528e123a5058efc633e2e6241f24a2c6a4769`.
+
+The run passed Lean build, `leanchecker` independent environment checking, axiom audit, no `sorry`/`admit` placeholders, and all Python/SymPy clean-room regressions through Stage 7.
+
+Current `formal/GSSCorrection.lean` has the same Git blob SHA as the certified source: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
+
+## N1 canonical verdict
+
+`PASS — NOTE THEORY FROZEN`.
+
+Routing: `N2 — MANUSCRIPT CONSTRUCTION`.
