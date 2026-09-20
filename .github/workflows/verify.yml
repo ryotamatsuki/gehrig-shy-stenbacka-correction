@@ -22,3 +22,5 @@ jobs:
         run: python -m compileall -q code
       - name: Run Stage 1 exact recheck
         run: python code/stage01_independent_recheck.py
+      - name: Run Stage 4 global-validity checks
+        run: python code/stage04_global_validity.py
