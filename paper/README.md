@@ -9,3 +9,11 @@ Certified formal-verification run: `35500192212`.
 This directory is now authorized for N2 manuscript construction.
 
 No manuscript theorem, source attribution, welfare statement, uniqueness statement, generality claim, or policy statement may exceed `audit/NOTE_N1_CLAIM_SCOPE_LEDGER.md` without reopening N1 and the earliest affected analytic gate.
+
+## N2 closure
+
+`PASS — MANUSCRIPT CONSTRUCTED`.
+
+Compile workflow run: `35500470176` (`success`).
+
+Next manuscript gate: `N3 — INDEPENDENT REFEREE ATTACK`.
