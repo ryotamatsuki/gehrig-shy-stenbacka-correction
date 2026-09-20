@@ -28,6 +28,8 @@ jobs:
         run: python code/stage04a_cleanroom_adversarial.py
       - name: Run Stage 7 welfare decomposition
         run: python code/stage07_welfare_decomposition.py
+      - name: Run N3 independent referee recheck
+        run: python code/n3_independent_referee_recheck.py
 
   formal-verification:
     runs-on: ubuntu-latest
