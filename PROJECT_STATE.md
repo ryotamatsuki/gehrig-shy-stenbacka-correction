@@ -173,8 +173,9 @@ Accordingly:
 |---|---|
 | N1 — Pre-submission Assurance / Theory Freeze | **PASS — NOTE THEORY FROZEN** |
 | N2 — Manuscript Construction | **PASS — MANUSCRIPT CONSTRUCTED** |
-| N3 — Independent Referee Attack | **NOT STARTED — next** |
-| N4+ | **NOT STARTED** |
+| N3 — Independent Referee Attack | **PASS — REFEREE ATTACK RESOLVED** |
+| N4 — Journal Positioning | **NOT STARTED — next** |
+| N5+ | **NOT STARTED** |
 
 N1 certified workflow run: `35500192212`.
 N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
@@ -182,3 +183,23 @@ N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
 ## N2 manuscript construction
 
 The compact correction/reassessment manuscript is constructed at `paper/manuscript.tex` with bibliography and frozen claim map. LaTeX/PDF CI passed in workflow run `35500470176`.
+
+
+## N3 independent referee attack
+
+The complete correction-note manuscript was attacked independently for
+mathematics, source attribution, global-equilibrium scope, welfare accounting,
+novelty, and materiality.
+
+Material issues found and resolved included:
+
+- missing price-strategy-set caveat;
+- absent primitive CS integral in the manuscript;
+- compressed common-price lemma proof;
+- incorrect author metadata for two cited papers;
+- draft-versus-published source attribution;
+- entry-invariance scope clarification.
+
+Revised manuscript compile run `35500966614` passed.
+Independent N3 mathematical recheck passed.
+No theory-freeze reopen trigger was found.
