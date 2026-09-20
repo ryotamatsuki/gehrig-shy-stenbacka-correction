@@ -1,12 +1,11 @@
 # Paper workspace
 
-Manuscript construction has **not started**.
+Canonical route: `COMPACT CORRECTION / REASSESSMENT NOTE`.
 
-This directory is reserved for the correction manuscript after the applicable
-theory-freeze and adversarial-certification gates are passed.
+N1 is closed: `PASS — NOTE THEORY FROZEN`.
 
-Current route:
+Certified formal-verification run: `35500192212`.
 
-`Stage 2 GO -> Stage 3 -> Stage 4 -> Stage 4A -> ...`
+This directory is now authorized for N2 manuscript construction.
 
-Creating this placeholder does not constitute Stage 9 or Stage 10 completion.
+No manuscript theorem, source attribution, welfare statement, uniqueness statement, generality claim, or policy statement may exceed `audit/NOTE_N1_CLAIM_SCOPE_LEDGER.md` without reopening N1 and the earliest affected analytic gate.
