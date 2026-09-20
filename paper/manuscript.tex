@@ -1,0 +1,475 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{example}{Example}
+\newcommand{\clip}{\operatorname{clip}}
+\newcommand{\DC}{\Delta c}
+
+\title{History-Based Price Discrimination with Switching Costs:\\
+Equilibrium Scope and a Welfare Correction}
+\author{Anonymous draft}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We revisit the Hotelling model of history-based price discrimination in
+\citet{gehrig2011}. Two corrections matter for its equilibrium and welfare
+comparison. First, once cohort demands are globally clipped, the displayed
+interior price formulas need not be global Nash equilibria: a firm charging one
+price across customer cohorts may profitably raise price and abandon one cohort.
+We derive explicit parameter domains under which the displayed
+history-based-pricing and uniform-pricing profiles are Nash equilibria and show
+that the uniform-pricing validity domain is contained in the
+history-based-pricing domain. Second, direct integration of consumer surplus
+yields a factor of three missing from the complete author draft's reported
+consumer-surplus difference. On the common validity domain,
+uniform pricing raises consumer surplus by
+$3\theta(1-\theta)\sigma^2/(16\tau)$, while the incumbent's profit loss is only
+$\theta(1-\theta)\sigma^2/(8\tau)$ and the entrant's profit is unchanged.
+Hence total welfare is higher under the displayed uniform-pricing equilibrium
+by $\theta(1-\theta)\sigma^2/(16\tau)$. The welfare correction has a
+real-resource interpretation: history-based pricing improves spatial matching,
+but the resulting increase in switching-cost losses is larger. We do not claim
+game-wide uniqueness or characterize all equilibria outside the displayed
+profiles' validity domains.
+\end{abstract}
+
+\noindent\textbf{Keywords:} history-based price discrimination; switching costs;
+Hotelling competition; global equilibrium; welfare.
+
+\section{Introduction}
+
+\citet{gehrig2011} study history-based price discrimination (HBP) in a market
+with an incumbent, an entrant, inherited customers, new customers, and
+switching costs. Their model produces a sharp comparison between HBP and
+uniform pricing, including the conclusions that entry is invariant across the
+two pricing regimes and that the incumbent's gain from HBP exceeds the
+associated consumer loss.
+
+This note re-evaluates two logically distinct parts of that comparison. The
+first is equilibrium scope. The displayed prices solve the smooth first-order
+conditions when both customer cohorts are interior. But a common-price firm
+faces a piecewise objective once demands are clipped to the unit interval. A
+finite price increase can move the firm to a different active set---for
+example, serving only the higher-value cohort---and can dominate the smooth
+candidate. We characterize parameter domains on which the displayed HBP and
+uniform-pricing profiles are global Nash equilibria.
+
+The second correction concerns welfare accounting. Direct integration of the
+primitive utilities yields a consumer-surplus difference three times the
+expression reported in the complete author draft. Once that factor is restored,
+the total-welfare comparison reverses on the domain where both displayed price
+profiles are valid equilibria. The correction is economically substantive, not
+a transfer-accounting artifact: HBP reduces transportation mismatch but
+increases switching-cost losses by a larger amount.
+
+Our contribution is deliberately source-specific. We do not develop a new
+general theory of segmented Bertrand competition, and we do not claim that
+uniform pricing is generally welfare superior to history-based or personalized
+pricing. Related work studies broader or different environments, including
+asymmetric no-discrimination constraints \citep{bouckaert2013}, models in which
+both firms can discriminate \citep{gehrig2012,gnutzmann2014}, dynamic
+history-based pricing \citep{shy2016}, and welfare under richer information
+structures \citep{chen2026}. The present results concern the model and displayed
+price profiles in \citet{gehrig2011}.
+
+\paragraph{Source version.}
+Our equation-level reconstruction uses the authors' complete 14 December 2009
+draft \citep{gehrig2009draft}. We separately verified the bibliographic metadata
+and published abstract for the 2011 article. We therefore attribute
+equation-level discrepancies to the complete author draft and do not claim
+line-by-line inspection of the Version of Record body.
+
+\section{Model and displayed price profiles}
+
+Firm $A$, the incumbent, is located at $0$ and firm $B$, the entrant, at $1$ on
+a unit Hotelling line. A mass $1-\theta$ of consumers is inherited and a mass
+$\theta$ is new, with $0<\theta<1$. Transportation cost is $\tau>0$. An old
+consumer who buys from $B$ incurs switching cost $\sigma\geq 0$. Marginal costs
+are $c_A$ and $c_B$, and we write
+\[
+  \DC \equiv c_A-c_B.
+\]
+
+Under HBP, $A$ charges $p_A$ to old consumers and $q_A$ to new consumers,
+whereas $B$ charges a common price $p_B$. Old-consumer utilities are
+\[
+ u_A^o(x)=\beta-p_A-\tau x,\qquad
+ u_B^o(x)=\beta-p_B-\tau(1-x)-\sigma,
+\]
+and new-consumer utilities are
+\[
+ u_A^n(x)=\beta-q_A-\tau x,\qquad
+ u_B^n(x)=\beta-p_B-\tau(1-x).
+\]
+Thus the actual incumbent shares are
+\[
+ x_o=\clip\!\left(\frac12+\frac{\sigma+p_B-p_A}{2\tau},0,1\right),
+ \qquad
+ x_n=\clip\!\left(\frac12+\frac{p_B-q_A}{2\tau},0,1\right).
+\]
+Under uniform pricing, $A$ also charges one price, so $p_A=q_A$.
+
+The displayed smooth HBP candidate is
+\begin{align}
+ p_A^d &=
+ \tau+\frac{(2+\theta)\sigma+4c_A+2c_B}{6},\\
+ q_A^d &=
+ \tau+\frac{4c_A+2c_B-(1-\theta)\sigma}{6},\\
+ p_B^d &=
+ \tau+\frac{2c_B+c_A-(1-\theta)\sigma}{3},
+\end{align}
+with shares
+\begin{align}
+ x_o^d&=\frac12+\frac{(2+\theta)\sigma-2\DC}{12\tau},\\
+ x_n^d&=\frac12-\frac{(1-\theta)\sigma+2\DC}{12\tau}.
+\end{align}
+The displayed uniform-pricing candidate is
+\begin{align}
+ p_A^u&=\tau+\frac{2c_A+c_B+(1-\theta)\sigma}{3},\\
+ p_B^u&=\tau+\frac{2c_B+c_A-(1-\theta)\sigma}{3},
+\end{align}
+with
+\begin{align}
+ x_o^u&=\frac12+\frac{(2\theta+1)\sigma-\DC}{6\tau},\\
+ x_n^u&=\frac12-\frac{\DC+2(1-\theta)\sigma}{6\tau}.
+\end{align}
+Both regimes imply the same aggregate incumbent share on the displayed branch:
+\[
+  m_A^d=m_A^u
+  =\frac12+\frac{(1-\theta)\sigma-\DC}{6\tau}.
+\]
+
+These formulas solve the interior first-order conditions. The next section
+shows why that fact alone is not a global-equilibrium certificate.
+
+\section{Global validity of the displayed equilibria}
+
+The nontrivial issue is common-price coupling. Once one cohort drops out, the
+profit function changes branch, and a second local maximum can appear.
+
+\begin{proposition}[Global validity of the displayed profiles]
+\label{prop:validity}
+Let $0<\theta<1$, $\tau>0$, and $\sigma\geq0$.
+
+\begin{enumerate}
+\item The displayed HBP profile is a global Nash equilibrium on
+\[
+\mathcal D_d:\quad
+-3\tau+\frac{4-\theta+3\sqrt{\theta}}{4}\sigma
+\leq \DC
+\leq
+3\tau-\frac{1-\theta}{2}\sigma.
+\]
+
+\item The displayed uniform-pricing profile is a global Nash equilibrium if and
+only if
+\[
+\mathcal D_u:\quad
+-3\tau+\frac{2+\theta+3\sqrt{\theta}}{2}\sigma
+\leq \DC
+\leq
+3\tau-\frac{1-\theta+3\sqrt{1-\theta}}{2}\sigma
+\]
+for the displayed-candidate construction.
+\end{enumerate}
+\end{proposition}
+
+The lower HBP bound prevents the entrant from abandoning old consumers and
+moving to its higher-price new-only branch. In the uniform-pricing game the
+lower bound similarly prevents a new-only deviation by $B$, while the upper
+bound prevents $A$ from raising price and serving only old consumers. The
+proof, given in Appendix~\ref{app:global}, explicitly optimizes every clipped
+branch.
+
+\begin{corollary}[Common comparison domain]
+\label{cor:containment}
+For $0<\theta<1$ and $\sigma\geq0$,
+\[
+  \mathcal D_u\subseteq \mathcal D_d.
+\]
+Hence the common validity domain for comparing the two displayed equilibria is
+\[
+  \mathcal D_{\mathrm{compare}}=\mathcal D_u.
+\]
+\end{corollary}
+
+Indeed, the uniform lower bound exceeds the HBP lower bound by
+\[
+  \frac34\bigl(\theta+\sqrt{\theta}\bigr)\sigma,
+\]
+while the uniform upper bound lies below the HBP upper bound by
+\[
+  \frac32\sqrt{1-\theta}\,\sigma.
+\]
+
+\begin{example}[Interior shares do not imply global Nash]
+\label{ex:hbp}
+Take
+\[
+ \theta=\frac12,\quad \tau=1,\quad \sigma=\frac{23}{10},
+ \quad c_A=c_B=0.
+\]
+The displayed HBP candidate is
+\[
+ p_A=\frac{47}{24},\qquad
+ q_A=\frac{97}{120},\qquad
+ p_B=\frac{37}{60},
+\]
+with strictly interior incumbent shares
+\[
+ x_o=\frac{47}{48},\qquad x_n=\frac{97}{240}.
+\]
+The entrant's candidate profit is $1369/7200$. By instead charging
+$p_B'=217/240$, the entrant abandons old consumers and obtains
+$47089/230400$, an exact gain of
+\[
+ \frac{3281}{230400}>0.
+\]
+Thus strict cohort interiority is insufficient for global equilibrium.
+\end{example}
+
+At weak boundaries of Proposition~\ref{prop:validity}, tied best responses can
+occur. We therefore make no game-wide uniqueness claim and no
+selection-invariant welfare claim for alternative boundary equilibria.
+
+\section{Consumer surplus and welfare correction}
+
+Let $CS^r$ and $\pi_i^r$ denote consumer surplus and firm $i$'s operating profit
+under regime $r\in\{d,u\}$. Direct integration of the primitive utilities over
+the displayed allocation gives the following result.
+
+\begin{proposition}[Corrected welfare comparison]
+\label{prop:welfare}
+On $\mathcal D_{\mathrm{compare}}$,
+\begin{align}
+ CS^u-CS^d
+ &=\frac{3\theta(1-\theta)\sigma^2}{16\tau},\\
+ \pi_A^d-\pi_A^u
+ &=\frac{\theta(1-\theta)\sigma^2}{8\tau},\\
+ \pi_B^d-\pi_B^u&=0,
+\end{align}
+and therefore
+\begin{equation}
+ W^d-W^u
+ =-\frac{\theta(1-\theta)\sigma^2}{16\tau}.
+\end{equation}
+For $0<\theta<1$, $\sigma>0$, and $\tau>0$, total welfare is strictly higher
+at the displayed uniform-pricing equilibrium.
+\end{proposition}
+
+The complete author draft reports the same consumer-surplus expression without
+the factor $3$. Restoring that factor changes the total-welfare calculation:
+the incumbent's profit gain from HBP equals only two thirds of the consumer
+loss, while entrant profit is unchanged.
+
+Table~\ref{tab:welfare} summarizes the decomposition in units of
+$\theta(1-\theta)\sigma^2/\tau$.
+
+\begin{table}[ht]
+\centering
+\caption{HBP minus uniform pricing: distributional and resource decomposition}
+\label{tab:welfare}
+\begin{tabular}{lrr}
+\toprule
+Component & HBP $-$ uniform & Coefficient \\
+\midrule
+Consumer surplus & $-3/16$ & $-3/16$ \\
+Incumbent profit & $+2/16$ & $+2/16$ \\
+Entrant profit & $0$ & $0$ \\
+\midrule
+Total welfare & $-1/16$ & $-1/16$ \\
+\midrule
+Transportation cost & $-3/16$ & $-3/16$ \\
+Switching-cost loss & $+4/16$ & $+4/16$ \\
+Total real resource cost & $+1/16$ & $+1/16$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Why the welfare ranking reverses}
+
+The allocation changes in a particularly transparent way:
+\begin{align}
+ x_o^d-x_o^u&=-\frac{\theta\sigma}{4\tau},\\
+ x_n^d-x_n^u&=\frac{(1-\theta)\sigma}{4\tau}.
+\end{align}
+Thus HBP sends more old consumers to entrant $B$ and more new consumers to
+incumbent $A$, while leaving the aggregate incumbent share unchanged. Prices
+move in parallel:
+\begin{align}
+ p_A^d-p_A^u&=\frac{\theta\sigma}{2},\\
+ q_A^d-p_A^u&=-\frac{(1-\theta)\sigma}{2},\\
+ p_B^d-p_B^u&=0.
+\end{align}
+
+For a cohort with incumbent cutoff $x$, aggregate Hotelling transportation cost
+is
+\[
+ \tau\left(x^2-x+\frac12\right).
+\]
+Substitution yields
+\[
+ TC^d-TC^u
+ =-\frac{3\theta(1-\theta)\sigma^2}{16\tau}.
+\]
+HBP therefore improves spatial matching. But switching costs are borne only by
+old consumers who buy from $B$, and
+\[
+ SC^d-SC^u
+ =\frac{\theta(1-\theta)\sigma^2}{4\tau}
+ =\frac{4\theta(1-\theta)\sigma^2}{16\tau}.
+\]
+The increase in switching losses exceeds the transportation-cost saving,
+leaving
+\[
+ (TC^d+SC^d)-(TC^u+SC^u)
+ =\frac{\theta(1-\theta)\sigma^2}{16\tau}.
+\]
+This exactly equals the negative of the welfare difference in
+Proposition~\ref{prop:welfare}.
+
+This resource interpretation assumes that $\sigma$ is a real switching
+disutility or resource cost---for example time, hassle, learning, or
+compatibility loss. A purely monetary termination fee may instead be partly a
+transfer and need not map one-for-one into this welfare accounting.
+
+\section{Scope and conclusion}
+
+The note establishes two source-specific corrections. First, the displayed
+interior pricing formulas require explicit global-validity restrictions because
+common pricing across cohorts creates profitable active-set deviations outside
+those domains. Second, on the common certified domain, correcting consumer
+surplus reverses the displayed-equilibrium welfare ranking.
+
+Several claims are intentionally outside our scope. We do not characterize the
+complete equilibrium correspondence outside $\mathcal D_d$ or $\mathcal D_u$;
+we do not claim uniqueness of the clipped price game; and we do not infer an
+optimal regulatory policy or endogenous regime choice. Likewise, the welfare
+result is not a general theorem that uniform pricing dominates personalized or
+history-based pricing in other models.
+
+The surviving result is narrower and sharper: within the
+\citet{gehrig2011} environment, the displayed comparison is valid only on an
+explicit parameter domain, and on that domain the corrected welfare accounting
+favors uniform pricing because the additional switching loss induced by HBP
+exceeds its spatial-matching gain.
+
+\appendix
+
+\section{Global best-response calculation}
+\label{app:global}
+
+Normalize prices by $\tau$, recenter by a firm's marginal cost, and let $z$ be
+its normalized net markup. For a firm charging one common price to two cohorts,
+write normalized demand as
+\[
+ D(z)
+ =w\clip\!\left(\frac{h_H-z}{2},0,1\right)
+ +(1-w)\clip\!\left(\frac{h_L-z}{2},0,1\right),
+ \qquad h_H\geq h_L.
+\]
+Let
+\[
+ \bar h=wh_H+(1-w)h_L.
+\]
+When both positive-mass segments are interior, the smooth FOC gives
+$z^*=\bar h/2$ and profit $\bar h^2/8$.
+
+\begin{lemma}[Two-segment common-price globality]
+Suppose the displayed smooth candidate has both segments interior and positive
+profit. Its only potentially superior high-price local maximum is the
+high-segment-only vertex, whose peak profit is $wh_H^2/8$. Consequently the
+smooth candidate is a global best response if and only if
+\[
+ \bar h^2\geq wh_H^2,
+\]
+or, on the positive regular branch,
+\[
+ \bar h\geq\sqrt{w}\,h_H.
+\]
+\end{lemma}
+
+\begin{proof}
+The clipped demand is continuous and piecewise affine, so $zD(z)$ is continuous
+and piecewise quadratic. Moving upward from the both-interior branch, the only
+new quadratic branch after the lower-threshold cohort exits is
+$wz(h_H-z)/2$, with vertex $h_H/2$ and value $wh_H^2/8$. The lower-price
+branches cannot dominate the both-interior vertex: on the branch adjacent from
+below, the one-sided derivative at the breakpoint is at least the derivative
+on the both-interior branch and is positive before $z^*$; the full-demand
+branch is linear in the markup. Negative-markup deviations yield nonpositive
+profit. Comparing the two relevant peaks gives the stated condition.
+\end{proof}
+
+For HBP, the incumbent's two prices solve separate one-segment problems. The
+entrant is the common-price firm, with the new cohort as the high-threshold
+segment of weight $\theta$. Substitution in the lemma yields the lower bound in
+$\mathcal D_d$; the binding incumbent segment condition yields its upper bound.
+
+Under uniform pricing, both firms face common-price coupling. For $B$, the
+new cohort is the high-threshold segment of weight $\theta$, yielding the lower
+bound in $\mathcal D_u$. For $A$, the old cohort is the high-threshold segment
+of weight $1-\theta$, yielding the upper bound.
+
+\section{Additional exact deviations}
+
+The two sides of the uniform-pricing validity domain also admit exact
+counterexamples with strictly interior displayed shares.
+
+For an entrant-side failure, take
+\[
+ \theta=\frac12,\quad \tau=\sigma=1,\quad c_B=0,\quad c_A=-\frac45.
+\]
+The displayed prices are $p_A=19/30$ and $p_B=17/30$, with
+$x_o=29/30$ and $x_n=7/15$. A new-only entrant deviation to $49/60$ yields an
+exact profit gain of
+\[
+ \frac{89}{14400}>0.
+\]
+
+For an incumbent-side failure, take
+\[
+ \theta=\frac12,\quad \tau=\sigma=1,\quad c_B=0,\quad c_A=\frac95.
+\]
+The displayed prices are $p_A=71/30$ and $p_B=43/30$, with
+$x_o=8/15$ and $x_n=1/30$. An old-only incumbent deviation to $157/60$ again
+yields an exact profit gain of
+\[
+ \frac{89}{14400}>0.
+\]
+
+The first example can be translated upward by a common additive shift in both
+marginal costs and all prices without changing demand or markups, so the
+negative value of $c_A$ is not economically essential to the deviation.
+
+\section{Verification and reproducibility}
+
+The proof-critical algebra and exact counterexamples are independently checked
+in the accompanying repository. A clean-room verifier reconstructs clipped
+payoffs directly from primitives and enumerates all piecewise-quadratic
+unilateral-deviation branches. A separate Lean~4 development verifies the
+threshold reductions, domain containment, welfare identities, welfare sign, and
+exact rational counterexamples.
+
+The formalization intentionally does not encode the full game or the
+exhaustiveness of the economic case partition; those objects are certified by
+the independent global-deviation audit rather than inferred from the proof
+assistant. The manuscript makes no claim stronger than that layered
+certification.
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}
