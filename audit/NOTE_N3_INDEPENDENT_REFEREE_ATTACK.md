@@ -339,12 +339,12 @@ Revised-manuscript compile:
 - result: `success`;
 - manuscript compile and PDF-existence check both passed.
 
-Independent referee mathematics:
+Independent referee mathematics and formal verification:
 
 - workflow run `35500829554`: `success`;
 - N3 independent symbolic recheck: `PASS`;
-- current revised-source Stage-1/4/4A/7/N3 regression job in run
-  `35500966607`: `success`.
+- full revised-source verification run `35500966607`: `success`;
+- that run passed Stage 1, Stage 4, Stage 4A, Stage 7, the N3 independent recheck, Lean build, independent checker, axiom audit, and placeholder rejection.
 
 Formal proof source fidelity:
 
