@@ -367,3 +367,34 @@ No mathematical reopen trigger was found.
 Routing:
 
 `N4 — JOURNAL POSITIONING`.
+
+
+## Post-N3 source-hygiene addendum discovered at N4
+
+At the start of N4, a source-structure audit detected repeated dead LaTeX
+material after the first `\end{document}`.
+
+This did not affect the N3-rendered manuscript because TeX terminates at the
+first `\end{document}`. The certified N3 PDF therefore contained only the
+intended manuscript.
+
+N4 removed the trailing dead source without changing the rendered theorem,
+claim, bibliography, or appendix content.
+
+Cleanup commit:
+
+`a11d8f193cc919350e3db85d45400c662515357b`.
+
+Post-cleanup manuscript state:
+
+- one `\appendix`;
+- one `\end{document}`;
+- approximately 2,900 words by a crude LaTeX-stripped count.
+
+Post-cleanup compile run:
+
+`35505354250 — success`.
+
+Classification:
+
+`SOURCE HYGIENE ONLY — NO N1/N3 REOPEN TRIGGER`.
