@@ -103,7 +103,7 @@ The repository workflow must require:
 
 - Lean build success;
 - axiom audit;
-- independent Lean environment checking via nanoda;
+- independent Lean environment checking via `leanchecker`;
 - no `sorry` or `admit` placeholders;
 - existing Python/SymPy and clean-room regressions.
 
