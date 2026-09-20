@@ -112,3 +112,36 @@ merely to increase technical bulk.
 Stage 3 must choose the smallest architecture that carries the surviving
 correction: corrected welfare plus exact global-validity conditions. Full
 correspondence is a later extension only if independently justified.
+
+
+## Stage 6 theorem-aware re-kill addendum — 2026-09-20
+
+Stage 6 re-ran the literature search using the **certified** P1–P4 theorem
+objects and the application-neutral piecewise-affine/common-price
+representation.
+
+Result: the Stage-2 `GO` survives, with narrower novelty language.
+
+New serious parent-class candidates examined include:
+
+- Aksoy-Pierson, Allon & Federgruen (2013), segmented mixed-MNL price
+  competition;
+- Federgruen & Hu (2015, 2019, 2021), regular piecewise-affine price and
+  assortment competition;
+- Bouckaert, Degryse & van Dijk (2013), asymmetric no-discrimination
+  constraints;
+- Chen, Shi & Zhang (2026), welfare of competitive price discrimination with
+  captive consumers.
+
+The generic common-price/piecewise optimization lemma is no longer treated as
+a contribution. The surviving novelty is source-specific:
+
+1. exact global-validity domains for the GSS displayed HBP and uniform
+   candidates;
+2. containment of those domains and the exact common comparison domain;
+3. the factor-three consumer-surplus correction and resulting reversal of the
+   GSS welfare ranking on that certified domain.
+
+Full theorem-absorption maps and the current-frontier search are stored in
+`STAGE_06_NOVELTY_REKILL.md` and
+`stage06_search_log_2026-09-20.md`.
