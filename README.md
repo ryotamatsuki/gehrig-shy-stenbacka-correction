@@ -61,3 +61,13 @@ The discovery audit remains preserved in
 
 This correction repository treats that audit as provenance, not as proof:
 proof-critical identities are independently rechecked here.
+
+
+## Project classification after Stage 7.5
+
+This repository now follows a compact correction/reassessment-note route rather
+than the full-theory-paper route.
+
+The project remains active. Before manuscript construction it should complete a
+note-specific assurance/freeze protocol, including targeted formal verification
+of the proof-critical correction core.
