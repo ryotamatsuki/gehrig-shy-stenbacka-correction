@@ -66,3 +66,8 @@ IJIO is optional stretch; EER is optional inquiry only.
 
 See `audit/NOTE_N4_JOURNAL_POSITIONING.md` and
 `paper/JOURNAL_TARGET.md`.
+
+
+16. `NOTE_N5_FULL_NOTE_INTEGRATION.md` — PASS; RIO-facing full-note integration
+
+Next: N6 submission QA.
