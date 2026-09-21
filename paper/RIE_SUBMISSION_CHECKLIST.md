@@ -57,18 +57,14 @@ Relevant submission implications:
 - paper/cover_letter.md
 - supplement/README.md
 
-## AUTHOR INPUT REQUIRED before final upload
+## Submission metadata resolved
 
-The following cannot be fabricated by the repository workflow:
-
-- author name(s);
-- affiliation(s);
-- corresponding-author e-mail;
-- ORCID, if used;
-- funding declaration;
-- competing-interest declaration;
-- confirmation that the manuscript is not simultaneously under review;
-- final article-type choice shown by the live RiE submission interface.
-
-These items are the only intended N6 submission-metadata blockers after the
-technical QA is green.
+- [x] Author: Ryota Matsuki.
+- [x] Affiliation: Independent Researcher, Matsuyama, Ehime, Japan 790-0853.
+- [x] Corresponding e-mail: ryota.matsuki@gmail.com.
+- [x] ORCID: 0009-0005-2329-531X.
+- [x] Funding: no specific grant from public, commercial, or not-for-profit funding agencies.
+- [x] Competing interests: none declared.
+- [x] Acknowledgements: none.
+- [x] Author has confirmed that this manuscript is not under consideration elsewhere.
+- [x] Article-type rule: use the standard research-article/full-length category unless the live RiE portal explicitly exposes a dedicated Comment/Reassessment category.

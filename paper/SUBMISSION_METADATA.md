@@ -65,11 +65,11 @@ DOI: 10.1016/j.euroecorev.2010.09.001.
 
 ## Author metadata
 
-- Author name(s): AUTHOR INPUT REQUIRED
-- Affiliation(s): AUTHOR INPUT REQUIRED
-- Corresponding author: AUTHOR INPUT REQUIRED
-- E-mail: AUTHOR INPUT REQUIRED
-- ORCID: AUTHOR INPUT REQUIRED if used
+- Author name(s): Ryota Matsuki
+- Affiliation(s): Independent Researcher, Matsuyama, Ehime, Japan 790-0853
+- Corresponding author: Ryota Matsuki
+- E-mail: ryota.matsuki@gmail.com
+- ORCID: 0009-0005-2329-531X
 - Short title: Equilibrium Scope and Welfare in HBP
 
 ## Declarations

@@ -1,6 +1,6 @@
 # Cover Letter — Research in Economics
 
-AUTHOR NAME / AFFILIATION / CONTACT: AUTHOR INPUT REQUIRED
+Ryota Matsuki\nIndependent Researcher\nMatsuyama, Ehime, Japan 790-0853\nryota.matsuki@gmail.com\nORCID: 0009-0005-2329-531X
 
 Dear Editors of Research in Economics,
 
@@ -41,4 +41,4 @@ Thank you for your consideration.
 
 Sincerely,
 
-AUTHOR NAME REQUIRED
+Ryota Matsuki
