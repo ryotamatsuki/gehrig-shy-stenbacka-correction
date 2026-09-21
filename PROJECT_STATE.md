@@ -174,7 +174,7 @@ Accordingly:
 | N1 — Pre-submission Assurance / Theory Freeze | **PASS — NOTE THEORY FROZEN** |
 | N2 — Manuscript Construction | **PASS — MANUSCRIPT CONSTRUCTED** |
 | N3 — Independent Referee Attack | **PASS — REFEREE ATTACK RESOLVED** |
-| N4 — Journal Positioning | **PASS — EER inquiry-first / IJIO fallback** |
+| N4 — Journal Positioning | **PASS — RE-CERTIFIED; RIO FIRST / RiE SECOND** |
 | N5 — Full-Note Integration | **NOT STARTED — next** |
 | N6+ | **NOT STARTED** |
 
@@ -208,19 +208,25 @@ No theory-freeze reopen trigger was found.
 
 ## N4 journal positioning
 
-Canonical route:
+N4 was subsequently re-evaluated against the user's objective: avoid wasting
+time on an overly ambitious venue, but do not undersell a mathematically
+substantive correction.
 
-`EER PRE-SUBMISSION INQUIRY FIRST -> IF INVITED, EER SUBMISSION`.
+Re-certified canonical ladder:
 
-Primary direct fallback:
+`REVIEW OF INDUSTRIAL ORGANIZATION -> RESEARCH IN ECONOMICS -> JOURNAL OF INDUSTRY, COMPETITION AND TRADE -> ECONOMICS BULLETIN`.
 
-`INTERNATIONAL JOURNAL OF INDUSTRIAL ORGANIZATION`.
+Optional stretch:
 
-Further sequence:
+`IJIO` may be inserted before RIO only if the user deliberately chooses one
+higher-risk attempt.
 
-`RESEARCH IN ECONOMICS -> JOURNAL OF INDUSTRY, COMPETITION AND TRADE -> ECONOMICS BULLETIN`.
+Original-journal contact:
 
-`ECONOMICS LETTERS` is excluded because its current Letters format normally
+`EER` is retained only as an optional suitability/scientific-record inquiry,
+not as the default first formal submission.
+
+`ECONOMICS LETTERS` remains excluded because its Letters format normally
 limits contributions to about 2,000 words and explicitly states that comments
 are not suitable.
 
