@@ -109,7 +109,7 @@ Accordingly:
 - no bibliography entry is uncited;
 - the bibliography contains no `@unpublished` entry;
 - DOI metadata was added for Bouckaert, Degryse & van Dijk (2013);
-- bibliography style was switched to Springer-facing `spbasic`.
+- DOI metadata was preserved in BibTeX. The attempted `spbasic` style was reverted because the current TeX CI image does not provide `spbasic.bst`; RIO permits LaTeX submissions and recommends, rather than requires, the Springer template. Final publisher-template styling is therefore an N6 submission-QA task.
 
 The remaining cited articles and DOI metadata were independently checked
 against current publisher / AEA / RePEc records during N5.
