@@ -41,3 +41,23 @@ The current draft contains:
 7. Technical appendices for global best responses, exact deviations, and verification.
 
 N3 must attack the complete draft independently rather than treating this map as evidence that the prose is already safe.
+
+
+## N5 integration recertification
+
+N5 changed journal-facing presentation but no frozen mathematical claim.
+
+Unchanged theorem architecture:
+
+- Proposition 1 — displayed HBP / uniform global-validity domains;
+- Corollary 1 — `D_U subseteq D_HBP`;
+- Example 1 — exact profitable HBP deviation;
+- Proposition 2 — CS / profit / welfare correction;
+- resource-cost decomposition.
+
+N5 presentation additions (title, abstract, JEL, Data Availability, bibliography
+formatting, replication-package description) do not expand C0–C12.
+
+N5 verdict:
+
+`PASS — NO CLAIM-SCOPE DRIFT`.
