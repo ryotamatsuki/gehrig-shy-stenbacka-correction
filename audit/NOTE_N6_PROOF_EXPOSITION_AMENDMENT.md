@@ -32,3 +32,23 @@ None.  The change is proof exposition only.
 No equilibrium domain, theorem scope, counterexample, welfare identity, resource decomposition, source-version claim, bibliography item, Lean source, or verification script was changed.  All newly displayed intermediate identities were independently rechecked algebraically before insertion.
 
 N1 remains frozen.  N6 retains its separate conditional status arising from the outstanding author-controlled Elsevier AI-tool terms/privacy confirmation.
+
+
+## Closure evidence
+
+- final proof-exposition manuscript commit: `c479900ec3211dbb6395ec40a5b559f8dff18b79`;
+- paper/PDF workflow: `35554044043` — success;
+- mathematical/formal regression workflow: `35554044066` — success;
+- Stage 1 / Stage 4 / Stage 4A / Stage 7 / N3 exact rechecks — success;
+- Lean build, kernel/axiom audit, and proof-placeholder rejection — success;
+- PDF artifact: `10619373051`, 12 pages;
+- PDF final-log QA — success;
+- rendered-page visual inspection — no clipping, overflow, broken equations, malformed references, or abnormal blank pages.
+
+Effective diff from the pre-amendment AI-policy manuscript commit
+`ddd69d53727105af4bb72a060cf9b247f261366e` is limited to proof exposition
+plus this audit record.  No certified mathematical result changed.
+
+Verdict:
+
+`PASS — HUMAN-READABLE PROOF EXPOSITION RECERTIFIED`.
