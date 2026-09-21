@@ -275,7 +275,7 @@ Closure evidence:
 - independent N6 SymPy re-derivation reproduced prices, shares, domain containment, CE1–CE3, welfare accounting, and resource decomposition;
 - bibliography and source/version wording re-audited;
 - submission metadata, cover letter, title page, funding/COI declarations, and Elsevier generative-AI declaration finalized;
-- no blocking adversarial-referee objection remains.
+- no blocking adversarial-referee objection remains.\n- proof exposition was subsequently strengthened without changing the frozen theorem core: manuscript commit `c479900ec3211dbb6395ec40a5b559f8dff18b79`; paper run `35554044043` success; mathematical/formal run `35554044066` success; 12-page PDF artifact `10619373051` visually clean; explicit paper-level proofs now close the containment corollary, welfare proposition, generic global-BR lemma, and Appendix proof of Proposition 1;
 
 Canonical N6 verdict after the 2026-09-21 Elsevier generative-AI policy amendment:
 
