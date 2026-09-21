@@ -1,48 +1,81 @@
-# Journal Target — N4 Freeze
+# Journal Target — N4 Re-certified Freeze
 
-## Route
+## Canonical formal-submission ladder
 
-**First contact:** European Economic Review, via a pre-submission suitability
-inquiry before paying the unsolicited-submission fee.
+1. **Review of Industrial Organization (RIO)**
+2. **Research in Economics (RiE)**
+3. **Journal of Industry, Competition and Trade (JICT)**
+4. **Economics Bulletin**
 
-**If invited:** submit to EER using the article type specified by the editorial
-office.
+## Optional stretch
 
-**Primary direct fallback:** International Journal of Industrial Organization.
+**International Journal of Industrial Organization (IJIO)** may be inserted
+before RIO only if the user deliberately chooses one higher-risk attempt.
 
-**Further sequence:** Research in Economics -> Journal of Industry,
-Competition and Trade -> Economics Bulletin.
+Rationale: IJIO is a stronger IO field journal and has a recent theoretical
+Comment precedent, but that precedent concerns an article originally published
+in IJIO. The present contribution is deliberately source-specific and corrects
+an EER paper, so IJIO is not the time-efficient default.
 
-**Excluded:** Economics Letters.
+## Original-journal contact
+
+**European Economic Review (EER)** is retained as an optional
+suitability/scientific-record inquiry.
+
+This inquiry is not a formal submission and should not delay the canonical
+ladder unless EER explicitly invites submission.
+
+Target article:
+
+Thomas Gehrig, Oz Shy, Rune Stenbacka (2011),
+*History-based Price Discrimination and Entry in Markets with Switching Costs:
+A Welfare Analysis*, European Economic Review 55(5), 732--739.
+
+DOI: `10.1016/j.euroecorev.2010.09.001`.
+
+## Why RIO first
+
+The paper is a compact but substantive IO correction:
+
+- exact global-Nash validity domains;
+- exact profitable-deviation counterexamples;
+- factor-three consumer-surplus correction;
+- welfare-ranking reversal;
+- real-resource decomposition;
+- independent computational and Lean-backed verification.
+
+RIO offers the strongest balance of specialist readership, Comment precedent,
+and attainable contribution threshold.
+
+## Why Research in Economics second
+
+RiE is not treated as a disposal outlet. It is a legitimate general-interest
+economics journal whose editorial model is unusually well matched to a
+correctness-driven theoretical reassessment. It becomes the default second
+submission if RIO rejects.
+
+## Excluded
+
+**Economics Letters** remains excluded because the manuscript is longer than
+its usual Letters format and its current scope states that comments are not
+suitable.
 
 ## Classification
 
 Use:
 
-`independent Comment / correction / reassessment note`.
+`independent correction / reassessment note`.
 
-Do not self-classify as a publisher `Corrigendum`.
+Do not self-classify as a publisher `Corrigendum` unless instructed by the
+receiving journal.
 
-## EER inquiry objective
+## Workflow implication
 
-Ask only one editorial question:
+N4 is closed after re-certification.
 
-> Would EER consider an independent approximately 2,900-word
-> correction/reassessment of Gehrig, Shy & Stenbacka (2011), which derives
-> exact global-validity conditions for the displayed equilibria and corrects a
-> consumer-surplus calculation that reverses the published welfare headline;
-> and, if so, under which current article type should it be submitted?
+Next:
 
-Include the target article DOI:
+`N5 — FULL-NOTE INTEGRATION`.
 
-`10.1016/j.euroecorev.2010.09.001`.
-
-Do not attach or submit through the paid workflow until suitability is
-confirmed, unless the editorial office instructs otherwise.
-
-## Why IJIO is the fallback
-
-IJIO is the strongest direct field fit and has a 2026 Comment precedent
-(Jelovac, DOI `10.1016/j.ijindorg.2025.103218`) correcting a theoretical
-condition whose interior-solution logic is internally inconsistent. That
-publication form is very close to the present equilibrium-scope correction.
+N5 must integrate the manuscript for the RIO-first route without changing the
+N1-frozen theorem scope.
