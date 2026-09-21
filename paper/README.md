@@ -49,3 +49,27 @@ See `JOURNAL_TARGET.md` and
 `../audit/NOTE_N4_JOURNAL_POSITIONING.md`.
 
 Next manuscript gate: `N5 — FULL-NOTE INTEGRATION`.
+
+
+## N5 closure
+
+`PASS — FULL-NOTE INTEGRATION COMPLETE`.
+
+The manuscript is now integrated for the RIO-first submission route.
+
+Current title:
+
+`A Comment on Gehrig, Shy, and Stenbacka (2011): Equilibrium Scope and Welfare`.
+
+RIO-facing metadata:
+
+- abstract: approximately 173 words;
+- 5 keywords;
+- JEL: D43, L11, L13;
+- Data Availability Statement included;
+- replication manifest: `supplement/README.md`.
+
+Compile run: `35547152292 — success`.
+Mathematical/formal regression: `35547038441 — success`.
+
+Next gate: `N6 — SUBMISSION QA`.
