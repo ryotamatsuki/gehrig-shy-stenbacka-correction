@@ -52,3 +52,17 @@ Next: N4 journal positioning.
 16. `NOTE_N4_JOURNAL_POSITIONING.md` — PASS; EER inquiry-first route with IJIO primary fallback
 
 Next: N5 full-note integration.
+
+
+### N4 re-certification
+
+Journal positioning was re-certified after additional venue analysis.
+
+Current ladder:
+
+`Review of Industrial Organization -> Research in Economics -> JICT -> Economics Bulletin`.
+
+IJIO is optional stretch; EER is optional inquiry only.
+
+See `audit/NOTE_N4_JOURNAL_POSITIONING.md` and
+`paper/JOURNAL_TARGET.md`.
