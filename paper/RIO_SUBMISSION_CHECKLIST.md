@@ -30,7 +30,7 @@ N5 manuscript integration:
   the source-version discussion;
 - unpublished Gnutzmann working paper removed from the reference list;
 - DOI metadata added for Bouckaert, Degryse, and van Dijk (2013);
-- bibliography style changed to `spbasic` for Springer-facing integration;
+- bibliography metadata was aligned to RIO rules; the working draft retains the stable `apalike` BibTeX style because the current CI image does not ship `spbasic.bst`; final Springer-template styling is deferred to N6;
 - Data Availability Statement added;
 - replication package language aligned with the actual verification artifacts.
 
