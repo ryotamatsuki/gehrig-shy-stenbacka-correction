@@ -194,4 +194,41 @@ Required before PASS:
 
 Current verdict:
 
-`CONDITIONAL PASS — INTEGRATION COMPLETE; CI CONFIRMATION PENDING`.
+`PASS — FULL-NOTE INTEGRATION COMPLETE`.
+
+
+## N5 closure evidence
+
+RIO-integrated manuscript compile:
+
+- commit: `b69885d3a18e4e3327793780e3e9028902fea150`;
+- workflow run: `35547152292`;
+- result: `success`;
+- manuscript compile and PDF-existence check passed.
+
+Mathematical / formal regression after the substantive N5 integration:
+
+- workflow run: `35547038441`;
+- result: `success`;
+- Stage 1 exact recheck: pass;
+- Stage 4 global-validity checks: pass;
+- Stage 4A clean-room adversarial checks: pass;
+- Stage 7 welfare decomposition: pass;
+- N3 independent referee recheck: pass;
+- Lean formal-verification job: pass.
+
+Formal source remains the N1-certified blob:
+
+`fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
+
+The initial N5 compile attempts failed only because the CI TeX installation did
+not contain `spbasic.bst`. The working draft was returned to `apalike`; this
+does not affect mathematical content or bibliography metadata.
+
+## N5 canonical verdict
+
+`PASS — FULL-NOTE INTEGRATION COMPLETE`.
+
+Routing:
+
+`N6 — SUBMISSION QA`.
