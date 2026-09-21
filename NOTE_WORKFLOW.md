@@ -112,3 +112,28 @@ Freeze:
 
 Any post-freeze theorem or scope change reopens N1 and downstream note gates as
 appropriate.
+
+
+## Current project checkpoint
+
+Current certified state:
+
+- N1 — `PASS — NOTE THEORY FROZEN`
+- N2 — `PASS — MANUSCRIPT CONSTRUCTED`
+- N3 — `PASS — INDEPENDENT REFEREE ATTACK RESOLVED`
+- N4 — `PASS — JOURNAL POSITIONING RE-CERTIFIED`
+- N5 — `NOT STARTED — NEXT`
+- N6 — `NOT STARTED`
+- N7 — `NOT STARTED`
+
+Current formal-submission ladder:
+
+`RIO -> Research in Economics -> JICT -> Economics Bulletin`.
+
+IJIO is optional stretch; EER is optional inquiry only.
+
+The full-theory route remains unchanged:
+
+- Stage 7.5 — `NO-GO — FULL-THEORY ROUTE`
+- Stage 7.5A — not entered
+- Stage 8 — blocked under the full-theory workflow.
