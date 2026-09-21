@@ -122,8 +122,8 @@ Current certified state:
 - N2 — `PASS — MANUSCRIPT CONSTRUCTED`
 - N3 — `PASS — INDEPENDENT REFEREE ATTACK RESOLVED`
 - N4 — `PASS — JOURNAL POSITIONING RE-CERTIFIED`
-- N5 — `NOT STARTED — NEXT`
-- N6 — `NOT STARTED`
+- N5 — `PASS — FULL-NOTE INTEGRATION COMPLETE`
+- N6 — `NOT STARTED — NEXT`
 - N7 — `NOT STARTED`
 
 Current formal-submission ladder:
@@ -137,3 +137,16 @@ The full-theory route remains unchanged:
 - Stage 7.5 — `NO-GO — FULL-THEORY ROUTE`
 - Stage 7.5A — not entered
 - Stage 8 — blocked under the full-theory workflow.
+
+
+## N5 closure checkpoint
+
+N5 is closed:
+
+`PASS — FULL-NOTE INTEGRATION COMPLETE`.
+
+RIO-facing manuscript integration is complete and CI-certified.
+
+Next:
+
+`N6 — SUBMISSION QA`.
