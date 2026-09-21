@@ -176,8 +176,8 @@ Accordingly:
 | N3 — Independent Referee Attack | **PASS — REFEREE ATTACK RESOLVED** |
 | N4 — Journal Positioning | **PASS — RE-CERTIFIED; RIO FIRST / RiE SECOND** |
 | N5 — Full-Note Integration | **PASS — RIO-INTEGRATED NOTE** |
-| N6 — Submission QA | **PASS — SUBMISSION QA COMPLETE (Research in Economics)** |
-| N7 — Submission Freeze | **NOT STARTED — next** |
+| N6 — Submission QA | **CONDITIONAL PASS — AI-policy manuscript amendment complete; author terms/privacy confirmation outstanding** |
+| N7 — Submission Freeze | **BLOCKED — await author AI-tool terms/privacy confirmation** |
 
 N1 certified workflow run: `35500192212`.
 N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
@@ -277,10 +277,14 @@ Closure evidence:
 - submission metadata, cover letter, title page, funding/COI declarations, and Elsevier generative-AI declaration finalized;
 - no blocking adversarial-referee objection remains.
 
-Canonical N6 verdict:
+Canonical N6 verdict after the 2026-09-21 Elsevier generative-AI policy amendment:
 
-`PASS — SUBMISSION QA COMPLETE`.
+`CONDITIONAL PASS — MANUSCRIPT AI DISCLOSURE RECERTIFIED`.
+
+The manuscript now separates manuscript-preparation AI disclosure from research-process AI use, and records AI-assisted verification/code support in the verification methodology. No N1 mathematical claim or theory-freeze object changed.
+
+Outstanding author-controlled compliance check before N7: confirm that the applicable AI-tool terms and account/data-control settings satisfy Elsevier's privacy, confidentiality, intellectual-property, and no-unrelated-training requirements for unpublished manuscript material.
 
 Next:
 
-`N7 — SUBMISSION FREEZE`.
+`N7 — SUBMISSION FREEZE — BLOCKED PENDING AUTHOR CONFIRMATION`.

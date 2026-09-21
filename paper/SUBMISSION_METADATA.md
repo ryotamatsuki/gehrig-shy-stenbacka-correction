@@ -115,3 +115,15 @@ not under consideration by another journal at the time of RiE submission.
 Not frozen at N6. If the live submission form requests suggestions, the author
 should supply independent researchers with no recent collaboration or other
 conflict.
+
+
+## Generative AI and AI-assisted technologies
+
+- Manuscript-preparation disclosure: present immediately before the references, using the Elsevier-recommended declaration structure.
+- Tool/service: OpenAI ChatGPT (developer: OpenAI).
+- Manuscript-preparation uses disclosed: language editing, content organization, source/citation checking, submission-guideline checking, and internal-consistency checking.
+- Research-process uses disclosed separately in the manuscript's `Verification methodology and reproducibility` section: mathematical consistency checking, candidate-deviation/counterexample checking, and drafting/review of verification code and reproducibility-workflow documentation.
+- Model/version provenance: models available through ChatGPT varied across project sessions; no single model version is a dependency of the results.
+- Human oversight: AI output is not treated as evidence; proof-critical formulas, exact counterexamples, source attributions, code outputs, and economic interpretation are independently reviewed and checked against executable Python/SymPy and Lean artifacts.
+- Reproducibility: the reported results can be reproduced from archived code/formal artifacts without access to ChatGPT.
+- Author-controlled pre-submission check: confirm that the terms/privacy/data-use settings governing AI-tool use satisfy Elsevier's requirement that unpublished manuscript material is not granted for unrelated reuse or model training. Repository automation cannot verify account-level settings.

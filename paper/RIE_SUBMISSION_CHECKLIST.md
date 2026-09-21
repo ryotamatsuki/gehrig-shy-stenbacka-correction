@@ -68,3 +68,15 @@ Relevant submission implications:
 - [x] Acknowledgements: none.
 - [x] Author has confirmed that this manuscript is not under consideration elsewhere.
 - [x] Article-type rule: use the standard research-article/full-length category unless the live RiE portal explicitly exposes a dedicated Comment/Reassessment category.
+
+
+## Generative AI policy check
+
+- [x] Separate manuscript-preparation AI declaration appears immediately before the references.
+- [x] Declaration names OpenAI ChatGPT, states the purposes of use, and confirms author review and responsibility.
+- [x] Research-process AI use is separately described in the `Verification methodology and reproducibility` section.
+- [x] AI-assisted verification-code/workflow use is disclosed rather than folded into language-editing disclosure.
+- [x] AI-generated output is explicitly not treated as proof or evidence.
+- [x] Proof-critical results remain reproducible from Python/SymPy, Lean, and archived verification artifacts without ChatGPT.
+- [x] Source and citation information used in the paper has been independently checked.
+- [ ] AUTHOR CONFIRMATION BEFORE N7: verify the applicable AI-tool terms and account/data-control settings satisfy Elsevier's privacy, confidentiality, intellectual-property, and no-unrelated-training requirements for unpublished manuscript material.

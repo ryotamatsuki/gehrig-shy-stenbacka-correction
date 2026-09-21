@@ -123,8 +123,8 @@ Current certified state:
 - N3 — `PASS — INDEPENDENT REFEREE ATTACK RESOLVED`
 - N4 — `PASS — JOURNAL POSITIONING RE-CERTIFIED`
 - N5 — `PASS — FULL-NOTE INTEGRATION COMPLETE`
-- N6 — `PASS — SUBMISSION QA COMPLETE (RESEARCH IN ECONOMICS)`
-- N7 — `NOT STARTED — NEXT`
+- N6 — `CONDITIONAL PASS — AI-POLICY MANUSCRIPT AMENDMENT COMPLETE; AUTHOR TERMS/PRIVACY CONFIRMATION OUTSTANDING`
+- N7 — `BLOCKED — AWAIT AUTHOR AI-TOOL TERMS/PRIVACY CONFIRMATION`
 
 Current formal submission target:
 
@@ -155,9 +155,11 @@ Next:
 
 ## N6 closure checkpoint
 
-N6 is closed:
+N6 was re-opened narrowly for the 2026-09-21 Elsevier generative-AI policy check and is now conditionally re-certified:
 
-`PASS — SUBMISSION QA COMPLETE`.
+`CONDITIONAL PASS — MANUSCRIPT AI DISCLOSURE RECERTIFIED`.
+
+The change is disclosure/methodology-only and does not reopen N1 or alter any theorem, domain, counterexample, welfare identity, or formal artifact.
 
 Target-specific package: Research in Economics.
 
@@ -169,6 +171,8 @@ CI evidence:
 - paper run `35550478697` — success;
 - PDF artifact `10618029564` — visually inspected, 9 pages.
 
+Outstanding before N7: author confirmation of applicable AI-tool terms and account/data-control settings for Elsevier privacy/confidentiality/no-unrelated-training compliance.
+
 Next:
 
-`N7 — SUBMISSION FREEZE`.
+`N7 — SUBMISSION FREEZE — BLOCKED PENDING AUTHOR CONFIRMATION`.

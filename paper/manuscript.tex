@@ -517,7 +517,7 @@ The first example can be translated upward by a common additive shift in both
 marginal costs and all prices without changing demand or markups, so the
 negative value of $c_A$ is not economically essential to the deviation.
 
-\section{Verification and reproducibility}
+\section{Verification methodology and reproducibility}
 
 The proof-critical algebra and exact counterexamples are independently checked
 in the accompanying replication package. A clean-room verifier reconstructs
@@ -525,6 +525,25 @@ clipped payoffs directly from primitives and enumerates all
 piecewise-quadratic unilateral-deviation branches. A separate Lean~4
 development verifies the threshold reductions, domain containment, welfare
 identities, welfare sign, and exact rational counterexamples.
+
+\paragraph{AI-assisted research support.}
+OpenAI ChatGPT (OpenAI; model/version varied across project sessions) was used
+in a supportive role during the research process to assist with mathematical
+consistency checks, exploration and checking of candidate deviations and
+counterexamples, and the drafting and review of verification code and
+reproducibility-workflow documentation. AI-generated output was not treated as
+evidence and did not replace the author's mathematical or economic judgment.
+All proof-critical formulas and counterexamples reported in the manuscript were
+rechecked against the model primitives and executable artifacts. Exact symbolic
+and rational checks were rerun in Python/SymPy, and selected threshold
+reductions, domain-containment statements, welfare identities and signs, and
+exact rational counterexamples were separately formalized in Lean~4 and
+kernel-checked. The author reviewed the verification code, outputs, source
+attributions, and final interpretation and takes responsibility for the
+results. Because the model/version varied across sessions, the AI service is
+not a fixed component of the replication path; the reported results are
+reproducible from the archived code and formal artifacts without access to
+ChatGPT.
 
 The formalization intentionally does not encode the full game or the
 exhaustiveness of the economic case partition; those objects are certified by
@@ -549,11 +568,13 @@ accompanying replication package.
 
 \section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
 
-During the preparation of this work the author used OpenAI ChatGPT to assist
-with language editing, organization, source and consistency checks, and
-reproducibility-workflow documentation. The author reviewed and edited the
-resulting material and takes full responsibility for the content of the
-publication.
+During the preparation of this work, the author used OpenAI ChatGPT (OpenAI) to
+assist with language editing, content organization, source and citation
+checking, and submission-guideline and internal-consistency checks. After using
+this tool, the author reviewed and edited the content as needed and takes full
+responsibility for the content of the published article. Research-process uses
+of ChatGPT are separately described in the Verification methodology and
+reproducibility section.
 
 \bibliographystyle{apalike}
 \bibliography{references}
