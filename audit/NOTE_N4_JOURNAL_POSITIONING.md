@@ -359,3 +359,88 @@ Next:
 N5 should first produce an EER-facing integrated package: journal-neutral
 manuscript cleanup plus an EER suitability-inquiry draft. It should not change
 the frozen theorem scope.
+
+
+---
+
+## N4 Re-certification Addendum — post-positioning review
+
+### Trigger
+
+After the initial N4 freeze, the journal ladder was stress-tested against a
+more precise objective:
+
+> avoid spending long review cycles on a venue whose contribution threshold is
+> materially above this source-specific correction, while also avoiding an
+> unnecessarily low placement.
+
+The manuscript itself and all N1 mathematical claims are unchanged.
+
+### Reassessment
+
+The initial ordering over-weighted the existence of an IJIO Comment precedent.
+That precedent shows that IJIO publishes mathematically substantive Comments,
+but it corrected an IJIO article. The present note corrects an EER article and
+does not claim a new general IO theorem. IJIO therefore remains a defensible
+stretch submission, but not the default time-efficient first target.
+
+Research in Economics was also re-examined. Its editorial model is unusually
+compatible with a correctness-driven reassessment: the initial editorial
+question is whether the result, if correct, is worth publishing, followed by a
+focused correctness/coherence evaluation. It is therefore a credible direct
+target rather than merely a low fallback.
+
+Review of Industrial Organization provides the best compromise between
+specialist audience and attainable contribution threshold. It has a direct IO
+readership and published precedent for short comments that revise consumer-
+surplus/social-welfare comparisons in prior IO models.
+
+### Re-certified canonical ladder
+
+1. **Review of Industrial Organization (RIO)** — first formal submission.
+2. **Research in Economics (RiE)** — second submission; strongest
+   time-efficiency / correctness-fit alternative.
+3. **Journal of Industry, Competition and Trade (JICT)**.
+4. **Economics Bulletin** — preservation fallback.
+
+Optional:
+
+- **IJIO** may be inserted before RIO only as a deliberate stretch attempt.
+- **EER** may receive a brief suitability/scientific-record inquiry, but this
+  is not a formal submission and should not delay the main ladder.
+
+Excluded:
+
+- **Economics Letters**.
+
+### Rationale
+
+The note is stronger than a one-line corrigendum because it contains:
+
+- exact global-validity domains for both displayed pricing regimes;
+- exact finite-deviation counterexamples;
+- a factor-three consumer-surplus correction;
+- reversal of the displayed-equilibrium welfare ranking;
+- a real-resource decomposition;
+- independent clean-room and Lean-backed verification.
+
+At the same time, Stage 7.5 correctly determined that the contribution remains
+source-specific rather than a new general theory of history-based pricing.
+That combination argues against both extremes: neither a high-risk IJIO-first
+strategy nor an immediate Economics Bulletin placement is the default.
+
+### N4 re-certified verdict
+
+`PASS — JOURNAL POSITIONING RE-CERTIFIED`
+
+Canonical first formal target:
+
+`REVIEW OF INDUSTRIAL ORGANIZATION`
+
+Canonical second target:
+
+`RESEARCH IN ECONOMICS`
+
+Next workflow gate remains:
+
+`N5 — FULL-NOTE INTEGRATION`.
