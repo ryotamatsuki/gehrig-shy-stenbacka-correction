@@ -123,12 +123,14 @@ Current certified state:
 - N3 — `PASS — INDEPENDENT REFEREE ATTACK RESOLVED`
 - N4 — `PASS — JOURNAL POSITIONING RE-CERTIFIED`
 - N5 — `PASS — FULL-NOTE INTEGRATION COMPLETE`
-- N6 — `NOT STARTED — NEXT`
-- N7 — `NOT STARTED`
+- N6 — `PASS — SUBMISSION QA COMPLETE (RESEARCH IN ECONOMICS)`
+- N7 — `NOT STARTED — NEXT`
 
-Current formal-submission ladder:
+Current formal submission target:
 
-`RIO -> Research in Economics -> JICT -> Economics Bulletin`.
+`Research in Economics`.
+
+Fallback ladder after RiE: `RIO -> JICT -> Economics Bulletin`; IJIO remains optional stretch and EER optional inquiry.
 
 IJIO is optional stretch; EER is optional inquiry only.
 
@@ -150,3 +152,23 @@ RIO-facing manuscript integration is complete and CI-certified.
 Next:
 
 `N6 — SUBMISSION QA`.
+
+## N6 closure checkpoint
+
+N6 is closed:
+
+`PASS — SUBMISSION QA COMPLETE`.
+
+Target-specific package: Research in Economics.
+
+Audited submission-package commit: `0532899eb320e7333d1751542ebedac1f0e41021`.
+
+CI evidence:
+
+- verify run `35550478704` — success;
+- paper run `35550478697` — success;
+- PDF artifact `10618029564` — visually inspected, 9 pages.
+
+Next:
+
+`N7 — SUBMISSION FREEZE`.

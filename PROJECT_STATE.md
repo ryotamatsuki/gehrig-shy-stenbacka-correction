@@ -176,8 +176,8 @@ Accordingly:
 | N3 — Independent Referee Attack | **PASS — REFEREE ATTACK RESOLVED** |
 | N4 — Journal Positioning | **PASS — RE-CERTIFIED; RIO FIRST / RiE SECOND** |
 | N5 — Full-Note Integration | **PASS — RIO-INTEGRATED NOTE** |
-| N6 — Submission QA | **NOT STARTED — next** |
-| N7 — Submission Freeze | **NOT STARTED** |
+| N6 — Submission QA | **PASS — SUBMISSION QA COMPLETE (Research in Economics)** |
+| N7 — Submission Freeze | **NOT STARTED — next** |
 
 N1 certified workflow run: `35500192212`.
 N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
@@ -259,3 +259,28 @@ Mathematical/formal regression run `35547038441` passed.
 Canonical state:
 
 `PASS — FULL-NOTE INTEGRATION COMPLETE -> N6 SUBMISSION QA`.
+
+## N6 submission QA — Research in Economics
+
+The author selected Research in Economics as the current formal submission target at N6.
+
+RiE submission-package commit: `0532899eb320e7333d1751542ebedac1f0e41021`.
+
+Closure evidence:
+
+- mathematics / formal workflow `35550478704` — success;
+- paper / PDF QA workflow `35550478697` — success;
+- manuscript PDF artifact `10618029564` — 9 pages, final-log QA clean;
+- N1-certified Lean source blob unchanged: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`;
+- independent N6 SymPy re-derivation reproduced prices, shares, domain containment, CE1–CE3, welfare accounting, and resource decomposition;
+- bibliography and source/version wording re-audited;
+- submission metadata, cover letter, title page, funding/COI declarations, and Elsevier generative-AI declaration finalized;
+- no blocking adversarial-referee objection remains.
+
+Canonical N6 verdict:
+
+`PASS — SUBMISSION QA COMPLETE`.
+
+Next:
+
+`N7 — SUBMISSION FREEZE`.

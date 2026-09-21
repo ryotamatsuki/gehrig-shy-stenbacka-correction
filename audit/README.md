@@ -71,3 +71,11 @@ See `audit/NOTE_N4_JOURNAL_POSITIONING.md` and
 16. `NOTE_N5_FULL_NOTE_INTEGRATION.md` — PASS; RIO-facing full-note integration
 
 Next: N6 submission QA.
+
+17. `NOTE_N6_SUBMISSION_QA.md` — PASS; Research in Economics submission QA complete
+
+Submission-package commit: `0532899eb320e7333d1751542ebedac1f0e41021`.
+
+CI: verify `35550478704` success; paper/PDF `35550478697` success.
+
+Next: N7 submission freeze.
