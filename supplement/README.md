@@ -1,50 +1,93 @@
-# Replication package manifest
+# Research in Economics — supplementary verification package
 
-This directory-level manifest defines the supplementary verification material
-for the compact correction / reassessment note.
+This manifest defines the material intended for external submission with the
+correction / reassessment manuscript. Internal editorial-strategy and workflow
+memos are deliberately excluded from the submission supplement.
 
-## Economic reconstruction and global-deviation checks
+## Include in the submission supplement
 
-- `code/stage04a_cleanroom_adversarial.py`
+### Economic reconstruction and global-deviation checks
+
+- code/stage01_independent_recheck.py
+  - independent reconstruction of the displayed prices, shares, profits,
+    primitive consumer surplus, welfare, and CE1.
+
+- code/stage04_global_validity.py
+  - exact displayed-profile global-validity thresholds and CE1–CE3 regressions.
+
+- code/stage04a_cleanroom_adversarial.py
   - independent primitive clipped-payoff reconstruction;
-  - piecewise-quadratic unilateral-deviation enumeration;
-  - exact validity thresholds and counterexamples.
+  - exhaustive piecewise-quadratic unilateral-deviation enumeration;
+  - boundary / indifference-trigger audit.
 
-- `code/stage07_welfare_decomposition.py`
-  - transportation-cost and switching-cost decomposition;
-  - welfare accounting checks.
+- code/stage07_welfare_decomposition.py
+  - transportation-cost and switching-cost decomposition.
 
-- `code/n3_independent_referee_recheck.py`
-  - independent manuscript-facing re-derivation of consumer surplus, profits,
-    welfare, and threshold reductions;
-  - does not import the Stage-1/4/4A derivation modules.
+- code/n3_independent_referee_recheck.py
+  - independent manuscript-facing reconstruction that does not import the
+    Stage-1/4/4A derivation modules.
 
-## Formal verification
+### Formal verification
 
-- `formal/GSSCorrection.lean`
-- `lean-toolchain`
-- `lakefile.lean`
-- `lake-manifest.json`
+- formal/GSSCorrection.lean
+- lean-toolchain
+- lakefile.lean
+- lake-manifest.json
 
-The Lean development verifies the proof-critical algebraic reductions, domain
-containment, welfare identities/sign, and exact rational counterexamples. It
-does not claim to formalize the entire economic game, branch exhaustiveness,
-full equilibrium correspondence, or uniqueness.
+The Lean development verifies proof-critical algebraic reductions, domain
+containment, welfare accounting/sign, and the exact rational counterexamples.
+It does not formalize the full economic game, branch exhaustiveness, full
+equilibrium correspondence, or uniqueness.
 
-## Audit certificates
+### Python dependency provenance
 
-Supporting human-readable certificates are in:
+requirements.txt pins sympy==1.14.0.
 
-- `audit/certificates/`
-- `audit/STAGE_04A_INDEPENDENT_ADVERSARIAL_CERTIFICATION.md`
-- `audit/NOTE_N3_INDEPENDENT_REFEREE_ATTACK.md`
+## Exact permanent regression cases
 
-## Reproducibility boundary
+CE1 — HBP entrant:
 
-The manuscript's replication statement is intentionally narrower than
-"fully formalized paper":
+- theta = 1/2
+- tau = 1
+- sigma = 23/10
+- c_A = c_B = 0
+- displayed prices: p_A = 47/24, q_A = 97/120, p_B = 37/60
+- displayed shares: x_o = 47/48, x_n = 97/240
+- deviation: p_B' = 217/240
+- exact gain: 3281/230400 > 0
 
-`primitive economic reconstruction -> clean-room global-deviation audit -> targeted Lean verification`.
+CE2 — uniform entrant:
 
-The source/version and literature claims remain documentary rather than
-Lean-certified.
+- exact gain: 89/14400 > 0
+
+CE3 — uniform incumbent:
+
+- exact gain: 89/14400 > 0
+
+## Minimal rerun commands
+
+Python:
+
+    python -m pip install -r requirements.txt
+    python code/stage01_independent_recheck.py
+    python code/stage04_global_validity.py
+    python code/stage04a_cleanroom_adversarial.py
+    python code/stage07_welfare_decomposition.py
+    python code/n3_independent_referee_recheck.py
+
+Lean:
+
+    lake build
+
+The repository CI additionally runs the independent Lean environment checker,
+axiom audit, and placeholder rejection.
+
+## Submission boundary
+
+Do not include the full internal audit/ directory as reviewer supplementary
+material. It contains workflow history, journal strategy, and referee-attack
+records that are useful internally but unnecessary to reproduce the paper's
+analytical results.
+
+No publisher PDF or copyrighted Version-of-Record file is included in this
+repository or submission supplement.

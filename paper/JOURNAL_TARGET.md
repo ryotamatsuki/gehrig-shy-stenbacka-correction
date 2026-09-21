@@ -1,81 +1,87 @@
-# Journal Target — N4 Re-certified Freeze
+# Journal Target — Research in Economics submission route
 
-## Canonical formal-submission ladder
+## Current formal target
 
-1. **Review of Industrial Organization (RIO)**
-2. **Research in Economics (RiE)**
-3. **Journal of Industry, Competition and Trade (JICT)**
-4. **Economics Bulletin**
+Research in Economics (RiE) is the current first formal submission target,
+by explicit author decision at N6.
 
-## Optional stretch
+Target journal:
 
-**International Journal of Industrial Organization (IJIO)** may be inserted
-before RIO only if the user deliberately chooses one higher-risk attempt.
+- Research in Economics
+- ISSN: 1090-9443
+- Publisher: Elsevier
+- Journal page: https://shop.elsevier.com/journals/research-in-economics/1090-9443
 
-Rationale: IJIO is a stronger IO field journal and has a recent theoretical
-Comment precedent, but that precedent concerns an article originally published
-in IJIO. The present contribution is deliberately source-specific and corrects
-an EER paper, so IJIO is not the time-efficient default.
+The prior N4 ladder remains useful as fallback evidence, but the current
+submission package is no longer RIO-facing.
 
-## Original-journal contact
+## Why RiE fits this note
 
-**European Economic Review (EER)** is retained as an optional
-suitability/scientific-record inquiry.
+RiE describes itself as a general-interest economics journal publishing
+original theoretical and empirical work. Its current editorial policy states
+that editors first ask whether a paper's results, if correct, are worth
+publishing and, if so, seek a focused assessment of whether the paper is
+understandable, coherent, and correct within reasonable bounds.
 
-This inquiry is not a formal submission and should not delay the canonical
-ladder unless EER explicitly invites submission.
+That process is well aligned with this manuscript's actual contribution:
 
-Target article:
+- exact global-Nash validity domains for two displayed pricing profiles;
+- exact finite-deviation counterexamples;
+- a factor-three consumer-surplus correction;
+- reversal of the displayed-equilibrium welfare ranking;
+- a transparent real-resource decomposition;
+- independent computational and targeted Lean verification.
 
-Thomas Gehrig, Oz Shy, Rune Stenbacka (2011),
-*History-based Price Discrimination and Entry in Markets with Switching Costs:
-A Welfare Analysis*, European Economic Review 55(5), 732--739.
+The paper remains a source-specific reassessment, not a new general theory of
+history-based pricing.
 
-DOI: `10.1016/j.euroecorev.2010.09.001`.
+## Submission classification
 
-## Why RIO first
+Use a neutral classification such as:
 
-The paper is a compact but substantive IO correction:
+theoretical article / compact reassessment
 
-- exact global-Nash validity domains;
-- exact profitable-deviation counterexamples;
-- factor-three consumer-surplus correction;
-- welfare-ranking reversal;
-- real-resource decomposition;
-- independent computational and Lean-backed verification.
+Do not self-classify the manuscript as a publisher Corrigendum.
 
-RIO offers the strongest balance of specialist readership, Comment precedent,
-and attainable contribution threshold.
+Do not assume that RiE has a dedicated Comment article type unless the live
+submission interface explicitly offers it. The title therefore uses
+A Reassessment of ... rather than making article-type eligibility depend on
+the word Comment.
 
-## Why Research in Economics second
+## Current title
 
-RiE is not treated as a disposal outlet. It is a legitimate general-interest
-economics journal whose editorial model is unusually well matched to a
-correctness-driven theoretical reassessment. It becomes the default second
-submission if RIO rejects.
+Equilibrium Scope and Welfare in History-Based Price Discrimination:
+A Reassessment of Gehrig, Shy, and Stenbacka (2011)
 
-## Excluded
+## Current JEL
 
-**Economics Letters** remains excluded because the manuscript is longer than
-its usual Letters format and its current scope states that comments are not
-suitable.
+- D43 — Oligopoly and Other Forms of Market Imperfection
+- L13 — Oligopoly and Other Imperfect Markets
+- D60 — General Welfare Economics
 
-## Classification
+## Current fallback ladder
 
-Use:
+If RiE rejects on fit/contribution rather than a correctable mathematical
+defect:
 
-`independent correction / reassessment note`.
+1. Review of Industrial Organization
+2. Journal of Industry, Competition and Trade
+3. Economics Bulletin
 
-Do not self-classify as a publisher `Corrigendum` unless instructed by the
-receiving journal.
+Optional higher-risk stretch: IJIO.
 
-## Workflow implication
+Optional scientific-record inquiry: EER.
 
-N4 is closed after re-certification.
+Economics Letters remains excluded.
 
-Next:
+## Frozen constraints
 
-`N5 — FULL-NOTE INTEGRATION`.
+The journal retargeting does not reopen N1. The manuscript must not add:
 
-N5 must integrate the manuscript for the RIO-first route without changing the
-N1-frozen theorem scope.
+- uniqueness;
+- equilibrium nonexistence outside the certified domains;
+- a full equilibrium correspondence;
+- selection-invariant boundary welfare;
+- a general welfare-dominance claim;
+- an endogenous regime-choice or policy theorem;
+- a claim of line-by-line Version-of-Record equation inspection.

@@ -1,3 +1,5 @@
+> Historical N5 artifact. The current N6 submission target is Research in Economics; see paper/RIE_SUBMISSION_CHECKLIST.md.
+
 # RIO submission integration checklist — N5
 
 Target: **Review of Industrial Organization**.

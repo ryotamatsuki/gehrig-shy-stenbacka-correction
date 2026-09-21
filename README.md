@@ -1,73 +1,79 @@
-# Gehrig–Shy–Stenbacka (2011) Correction
+# Gehrig–Shy–Stenbacka (2011) correction / reassessment
 
-Independent correction project for:
+Independent reassessment project for:
 
 Thomas Gehrig, Oz Shy, and Rune Stenbacka (2011),
 “History-based Price Discrimination and Entry in Markets with Switching Costs:
-A Welfare Analysis,” *European Economic Review* 55(5), 732–739.
-DOI: `10.1016/j.euroecorev.2010.09.001`.
+A Welfare Analysis,” European Economic Review 55(5), 732–739.
+DOI: 10.1016/j.euroecorev.2010.09.001.
 
-## Current workflow state
+## Current route
 
-This project follows `research-paper-workflow` v2.3 at commit
-`9eb616bd31ea3a9ef3c29e288228ed962c44c9cf`.
+The full-theory route was stopped at Stage 7.5. The project follows the
+compact correction / reassessment-note workflow.
 
-- Stage 0 — GO
-- Stage 1 — GO
-- Stage 2 — GO
-- Stage 3 — GO — Architecture B selected
-- Stage 4 — GO
-- Stage 4A — GO — independent certification PASS
-- Stage 5 — NOT TRIGGERED
-- Stage 6 — NOT STARTED — next
-- Stage 7+ — NOT STARTED
+Current certified note stages:
 
-The repository has been initialized early as a dedicated research workspace by
-explicit project decision. This does **not** mark workflow Stage 9 complete and
-does not authorize manuscript construction before the theory-freeze gates.
+- N1 — PASS — NOTE THEORY FROZEN
+- N2 — PASS — MANUSCRIPT CONSTRUCTED
+- N3 — PASS — INDEPENDENT REFEREE ATTACK RESOLVED
+- N4 — PASS — JOURNAL POSITIONING RE-CERTIFIED
+- N5 — PASS — FULL-NOTE INTEGRATION COMPLETE
+- N6 — Research in Economics submission QA in progress
+- N7 — not started
 
-## Certified starting findings
+The current formal submission target is Research in Economics by explicit
+author decision at N6.
 
-Stage 1 independently rederived three issues from the source model:
+## Frozen headline results
 
-1. Consumer surplus:
-   `CS^u-CS^d = 3 theta(1-theta) sigma^2/(16 tau)`.
-2. Hence:
-   `W^d-W^u = -theta(1-theta) sigma^2/(16 tau)`
-   on the common valid interior branch.
-3. The displayed interior HBP prices need not be a global Nash equilibrium on
-   the unrestricted parameter domain because the entrant can profitably cross
-   an active-set boundary.
+For the displayed HBP profile:
 
-The project also records an ancillary prose sign error involving
-`Delta c=c_A-c_B`.
+    -3 tau + [(4-theta+3 sqrt(theta))/4] sigma <= Delta c
+    <= 3 tau - [(1-theta)/2] sigma
 
-## Repository layout
+For the displayed uniform-pricing profile:
 
-- `PROJECT_STATE.md` — canonical workflow state and claim restrictions.
-- `audit/` — stage-gate records and search logs.
-- `code/` — independent symbolic/exact verification.
-- `sources/` — source lineage and provenance only; no copyrighted VOR is
-  committed without permission.
-- `paper/` — reserved for manuscript construction after the applicable
-  workflow gates.
-- `.github/workflows/` — reproducibility checks.
+    -3 tau + [(2+theta+3 sqrt(theta))/2] sigma <= Delta c
+    <= 3 tau - [(1-theta+3 sqrt(1-theta))/2] sigma
 
-## Parent audit provenance
+The uniform displayed-profile domain is contained in the HBP domain. On the
+common displayed-equilibrium domain:
 
-The discovery audit remains preserved in
-`ryotamatsuki/ozshypapers`, branch
-`final-cleanroom-theorem-audit-20260919`.
+- CS^u-CS^d = 3 theta(1-theta) sigma^2/(16 tau)
+- pi_A^d-pi_A^u = theta(1-theta) sigma^2/(8 tau)
+- pi_B^d-pi_B^u = 0
+- W^d-W^u = -theta(1-theta) sigma^2/(16 tau)
 
-This correction repository treats that audit as provenance, not as proof:
-proof-critical identities are independently rechecked here.
+The project does not claim game-wide uniqueness, nonexistence outside the
+displayed validity domains, a full equilibrium correspondence, or a general
+welfare theorem for history-based pricing.
 
+## Source boundary
 
-## Project classification after Stage 7.5
+Equation-level reconstruction is anchored to the complete 14 December 2009
+author draft. Published 2011 metadata and the welfare headline in the published
+record have been separately checked. The repository does not claim a
+line-by-line audit of every Version-of-Record equation.
 
-This repository now follows a compact correction/reassessment-note route rather
-than the full-theory-paper route.
+No publisher PDF is committed.
 
-The project remains active. Before manuscript construction it should complete a
-note-specific assurance/freeze protocol, including targeted formal verification
-of the proof-critical correction core.
+## Reproducibility
+
+Python/SymPy checks:
+
+    python -m pip install -r requirements.txt
+    python code/stage01_independent_recheck.py
+    python code/stage04_global_validity.py
+    python code/stage04a_cleanroom_adversarial.py
+    python code/stage07_welfare_decomposition.py
+    python code/n3_independent_referee_recheck.py
+
+Lean:
+
+    lake build
+
+CI additionally performs independent Lean environment checking, an axiom
+audit, placeholder rejection, and manuscript PDF QA.
+
+See supplement/README.md for the reviewer-facing verification package.

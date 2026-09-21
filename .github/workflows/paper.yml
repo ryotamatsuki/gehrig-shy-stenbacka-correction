@@ -26,3 +26,22 @@ jobs:
           latexmk_use_xelatex: false
       - name: Confirm PDF exists
         run: test -s paper/manuscript.pdf
+      - name: Enforce final-log QA
+        run: |
+          test "$(grep -c '^\\appendix' paper/manuscript.tex)" -eq 1
+          test "$(grep -c '^\\end{document}' paper/manuscript.tex)" -eq 1
+          if grep -E 'There were undefined (citations|references)|multiply defined|Missing character|LaTeX Error|Fatal error' paper/manuscript.log; then
+            echo "Blocking LaTeX QA warning found"
+            exit 1
+          fi
+          if grep -E 'Overfull \\hbox|Overfull \\vbox' paper/manuscript.log; then
+            echo "Blocking layout overflow found"
+            exit 1
+          fi
+      - name: Upload manuscript PDF and log
+        uses: actions/upload-artifact@v4
+        with:
+          name: manuscript-pdf
+          path: |
+            paper/manuscript.pdf
+            paper/manuscript.log
