@@ -175,8 +175,9 @@ Accordingly:
 | N2 — Manuscript Construction | **PASS — MANUSCRIPT CONSTRUCTED** |
 | N3 — Independent Referee Attack | **PASS — REFEREE ATTACK RESOLVED** |
 | N4 — Journal Positioning | **PASS — RE-CERTIFIED; RIO FIRST / RiE SECOND** |
-| N5 — Full-Note Integration | **NOT STARTED — next** |
-| N6+ | **NOT STARTED** |
+| N5 — Full-Note Integration | **PASS — RIO-INTEGRATED NOTE** |
+| N6 — Submission QA | **NOT STARTED — next** |
+| N7 — Submission Freeze | **NOT STARTED** |
 
 N1 certified workflow run: `35500192212`.
 N1 certified formal-source blob: `fa5b8d1dba6a6b8f25bdb0916bfd8bca1b33fe82`.
@@ -233,3 +234,28 @@ are not suitable.
 N4 also removed dead duplicate LaTeX source after the first
 `\end{document}`; the rendered manuscript was unaffected. Clean-source
 compile run `35505354250` passed.
+
+
+## N5 full-note integration
+
+N5 integrated the N3-certified note for the RIO-first route without reopening
+the N1 theory freeze.
+
+RIO-facing changes:
+
+- title: `A Comment on Gehrig, Shy, and Stenbacka (2011): Equilibrium Scope and Welfare`;
+- self-contained ~173-word abstract;
+- 5 keywords;
+- JEL D43 / L11 / L13;
+- published/accepted-only bibliography policy implemented;
+- source-draft discussion retained in prose but removed from the bibliography;
+- Data Availability Statement added;
+- replication-package manifest created at `supplement/README.md`;
+- title/abstract/introduction/conclusion and verification language aligned.
+
+Compile run `35547152292` passed.
+Mathematical/formal regression run `35547038441` passed.
+
+Canonical state:
+
+`PASS — FULL-NOTE INTEGRATION COMPLETE -> N6 SUBMISSION QA`.
