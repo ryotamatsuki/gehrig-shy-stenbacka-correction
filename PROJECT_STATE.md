@@ -4,8 +4,9 @@
 
 - Repository: `ryotamatsuki/gehrig-shy-stenbacka-correction`
 - Canonical branch: `main`
-- Workflow: `research-paper-workflow` v2.3
-- Workflow commit: `9eb616bd31ea3a9ef3c29e288228ed962c44c9cf`
+- Workflow: `research-paper-workflow` v2.5 for current exposition/submission work
+- Workflow commit: `46d17bc4c1036955103224a5c0358a70edd2cb90`
+- Earlier scientific/note-route certifications remain pinned to their recorded historical commits; v2.5 is a backward-compatible exposition retrofit.
 - Target: Thomas Gehrig, Oz Shy, and Rune Stenbacka (2011),
   “History-based Price Discrimination and Entry in Markets with Switching
   Costs: A Welfare Analysis,” *European Economic Review* 55(5), 732–739.
@@ -23,6 +24,10 @@ Parent clean-room audit:
 The parent audit classified the target as
 `FINAL_AUDITED_MATERIAL_ERROR`. This repository does not rely on that label
 as proof; Stage 1 independently rechecks the proof-critical mathematics.
+
+## v2.5 exposition retrofit
+
+`audit/EXPOSITION_STREAMLINING_V2_5_RETROFIT.md`: **PASS — no manuscript content change required**. N2/N5/N6 inherit the canonical Stage-10/13/14 exposition obligations. No N1 scientific rollback is triggered.
 
 ## Current canonical state
 
